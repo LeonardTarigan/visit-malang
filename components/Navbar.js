@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/legacy/image';
 import Logo from '../public/logo.png';
-import layout from '../styles/Layout.module.css';
+import { Link as Scroll } from 'react-scroll';
 
 function Navbar() {
     const [bgChange, setBgChange] = useState(false);
@@ -18,7 +18,7 @@ function Navbar() {
 
     return (
         <nav
-            className={`sticky top-0 mb-10 flex items-center justify-between gap-10 p-5 px-10 transition-all duration-200 ${
+            className={`sticky top-0 z-20 mb-10 flex items-center justify-between gap-10 py-7 px-10 transition-all duration-200 ${
                 bgChange ? 'bg-black bg-opacity-30 backdrop-blur-sm' : ''
             }`}
         >
@@ -27,19 +27,37 @@ function Navbar() {
                 <div className='relative h-10 w-10'>
                     <Image src={Logo} layout='fill' alt='logo' />
                 </div>
-                <h1 className='text-xl font-semibold'>Visit Malang</h1>
+                <span className='text-xl font-semibold'>Visit Malang</span>
             </div>
 
             {/* navigation */}
             <ul className='flex gap-10'>
                 <li className='cursor-pointer hover:underline'>Booking</li>
-                <li className='cursor-pointer hover:underline'>Rekomendasi</li>
-                <li className='cursor-pointer hover:underline'>Kontak</li>
+                <li className='cursor-pointer hover:underline'>
+                    <Scroll
+                        to='sejarah'
+                        smooth={true}
+                        offset={-110}
+                        duration={1000}
+                    >
+                        Sejarah
+                    </Scroll>
+                </li>
+                <li className='cursor-pointer hover:underline'>
+                    <Scroll
+                        to='wisata'
+                        smooth={true}
+                        offset={-110}
+                        duration={1000}
+                    >
+                        Wisata
+                    </Scroll>
+                </li>
             </ul>
 
             <div className='flex items-center gap-10'>
                 {/* search */}
-                <form className='w-[20rem]'>
+                <form className='w-[15rem]'>
                     <label
                         htmlFor='search'
                         className='sr-only mb-2 text-sm font-medium text-gray-900 dark:text-white'
@@ -67,16 +85,10 @@ function Navbar() {
                         <input
                             type='search'
                             id='search'
-                            className='block w-full rounded-lg border border-gray-300 bg-gray-50 p-4 pl-10 text-sm text-gray-900 focus:outline-none'
+                            className='block h-10 w-full rounded-lg border border-gray-300 bg-gray-50 p-4 pl-10 text-sm text-gray-900 focus:outline-none'
                             placeholder='Gunung Bromo...'
                             required
                         />
-                        <button
-                            type='submit'
-                            className='absolute right-2.5 bottom-2.5 rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white hover:bg-zinc-800 focus:outline-none'
-                        >
-                            Cari
-                        </button>
                     </div>
                 </form>
 
@@ -97,7 +109,16 @@ function Navbar() {
                 </div>
 
                 {/* profile */}
-                <div className='h-10 w-10 rounded-full bg-white'></div>
+                <div className='relative h-10 w-10 overflow-hidden rounded-full'>
+                    <Image
+                        src={`/api/imageproxy?url=${encodeURIComponent(
+                            'https://i.pinimg.com/736x/d9/ed/94/d9ed9494c8675919343c36f942cb1ec5.jpg'
+                        )}`}
+                        layout='fill'
+                        objectFit='cover'
+                        alt='logo'
+                    />
+                </div>
             </div>
         </nav>
     );

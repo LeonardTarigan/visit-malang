@@ -4,7 +4,7 @@ import Logo from '../public/logo.png';
 
 function Footer() {
     return (
-        <footer className='mt-10 rounded-lg bg-black bg-opacity-30 p-4 backdrop-blur-sm md:px-6 md:py-8'>
+        <footer className='mt-20 rounded-lg bg-black bg-opacity-30 p-4 backdrop-blur-sm md:px-6 md:py-8'>
             <div className='sm:flex sm:items-center sm:justify-between'>
                 <Link
                     href='https://flowbite.com/'
