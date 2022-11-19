@@ -114,12 +114,12 @@ export default function Home() {
                                 Rekomendasi
                             </button>
                         </div>
-                        <ul className='flex flex-wrap gap-5'>
+                        <ul className='flex flex-wrap'>
                             {wisata.data.map((data, index) => {
                                 return (
                                     <li
                                         key={index}
-                                        className='group relative h-72 w-64 cursor-pointer overflow-hidden rounded-md bg-white'
+                                        className='group relative h-72 w-64 grow cursor-pointer overflow-hidden bg-white'
                                     >
                                         <span className='absolute bottom-0 z-10 w-full p-2 text-center'>
                                             {data.name}
