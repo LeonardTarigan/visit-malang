@@ -5,6 +5,7 @@ import { Link as Scroll } from 'react-scroll';
 import Link from 'next/link';
 import NavInput from './NavInput';
 import NavProfile from './NavProfile';
+import NavLang from './NavLang';
 
 function Navbar() {
     const [bgChange, setBgChange] = useState(false);

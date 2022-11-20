@@ -16,7 +16,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-        url('../public/bromo.jpg');
+        url('/bg/bromo.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
