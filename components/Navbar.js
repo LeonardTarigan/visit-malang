@@ -1,8 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import Image from 'next/legacy/image';
 import Logo from '../public/logo.png';
 import { Link as Scroll } from 'react-scroll';
 import Link from 'next/link';
+import NavInput from './NavInput';
+import NavProfile from './NavProfile';
 
 function Navbar() {
     const [bgChange, setBgChange] = useState(false);
@@ -19,7 +21,7 @@ function Navbar() {
 
     return (
         <nav
-            className={`sticky top-0 z-20 mb-10 flex items-center justify-between gap-10 py-7 px-20 transition-all duration-200 ${
+            className={`sticky top-0 z-20 mb-10 flex items-center justify-between gap-10 py-5 px-20 transition-all duration-200 ${
                 bgChange ? 'bg-black bg-opacity-30 backdrop-blur-sm' : ''
             }`}
         >
@@ -32,11 +34,11 @@ function Navbar() {
             </Link>
 
             {/* navigation */}
-            <ul className='flex gap-10'>
-                <li className='cursor-pointer hover:underline'>
+            <ul className='flex select-none gap-10'>
+                <li className='cursor-pointer transition-all duration-200 hover:text-sky-500 hover:underline'>
                     <Link href={'/booking'}>Booking</Link>
                 </li>
-                <li className='cursor-pointer hover:underline'>
+                <li className='cursor-pointer transition-all duration-200 hover:text-green-400 hover:underline'>
                     <Scroll
                         to='sejarah'
                         smooth={true}
@@ -46,7 +48,7 @@ function Navbar() {
                         Sejarah
                     </Scroll>
                 </li>
-                <li className='cursor-pointer hover:underline'>
+                <li className='cursor-pointer transition-all duration-200 hover:text-rose-500 hover:underline'>
                     <Scroll
                         to='wisata'
                         smooth={true}
@@ -60,43 +62,7 @@ function Navbar() {
 
             <div className='flex items-center gap-10'>
                 {/* search */}
-                <form
-                    className='w-[15rem]'
-                    onSubmit={(e) => e.preventDefault()}
-                >
-                    <label
-                        htmlFor='search'
-                        className='sr-only mb-2 text-sm font-medium text-gray-900 dark:text-white'
-                    >
-                        Search
-                    </label>
-                    <div className='relative'>
-                        <div className='pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3'>
-                            <svg
-                                aria-hidden='true'
-                                className='h-5 w-5 text-gray-500'
-                                fill='none'
-                                stroke='currentColor'
-                                viewBox='0 0 24 24'
-                                xmlns='http://www.w3.org/2000/svg'
-                            >
-                                <path
-                                    strokeLinecap='round'
-                                    strokeLinejoin='round'
-                                    strokeWidth={2}
-                                    d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'
-                                />
-                            </svg>
-                        </div>
-                        <input
-                            type='search'
-                            id='search'
-                            className='block h-10 w-full rounded-lg bg-black bg-opacity-30 p-4 pl-10 text-sm text-white text-gray-900 focus:outline-none'
-                            placeholder='Gunung Bromo'
-                            required
-                        />
-                    </div>
-                </form>
+                <NavInput />
 
                 {/* lang */}
                 <div className='flex items-center'>
@@ -115,16 +81,7 @@ function Navbar() {
                 </div>
 
                 {/* profile */}
-                <div className='relative h-10 w-10 overflow-hidden rounded-full'>
-                    <Image
-                        src={`/api/imageproxy?url=${encodeURIComponent(
-                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGj807ryXilh3XkXfTzlg1QpsmaduSOScd2g&usqp=CAU'
-                        )}`}
-                        layout='fill'
-                        objectFit='cover'
-                        alt='logo'
-                    />
-                </div>
+                <NavProfile />
             </div>
         </nav>
     );
