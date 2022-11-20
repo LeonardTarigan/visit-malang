@@ -24,7 +24,7 @@ export default function Home() {
             </Head>
 
             <Layout>
-                <main className='flex h-fit flex-col gap-20 px-20'>
+                <main id='main' className='flex h-fit flex-col gap-20 px-20'>
                     <section className='mb-20 flex h-[27rem] flex-col justify-center gap-10'>
                         <h1
                             className='text-5xl font-semibold'
@@ -50,9 +50,12 @@ export default function Home() {
                             smooth={true}
                             offset={-110}
                             duration={1000}
+                            data-aos='fade-right'
+                            data-aos-duration='1000'
+                            data-aos-delay='200'
                         >
-                            <button className='w-fit border border-white py-2 px-5 font-semibold transition-all duration-200 hover:border-yellow-500 hover:bg-yellow-500 hover:text-black'>
-                                Jelajah
+                            <button className='w-fit border border-white py-2 px-5 font-semibold transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400 hover:text-black'>
+                                Mulai
                             </button>
                         </Scroll>
                     </section>
@@ -110,7 +113,7 @@ export default function Home() {
                                 Wisata Kota Malang
                             </h2>
 
-                            <button className='w-fit border border-white py-2 px-5 font-semibold transition-all duration-200 hover:border-yellow-500 hover:bg-yellow-500 hover:text-black'>
+                            <button className='w-fit border border-white py-2 px-5 font-semibold transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400 hover:text-black'>
                                 Rekomendasi
                             </button>
                         </div>
