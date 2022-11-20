@@ -1,6 +1,7 @@
 import { useContext, useState } from 'react';
 import { GlobalContext } from '../context/GlobalContext';
 import Image from 'next/legacy/image';
+import { useRouter } from 'next/router';
 
 function NavProfile() {
     const { state } = useContext(GlobalContext);
@@ -8,9 +9,15 @@ function NavProfile() {
 
     const [openMenu, setOpenMenu] = useState(false);
 
+    const router = useRouter();
+
     const handleLogin = () => {
-        setLoggedIn(true);
-        setOpenMenu(false);
+        router.push('/auth/login');
+    };
+
+    const handleLogout = () => {
+        setLoggedIn(false);
+        router.push('/');
     };
 
     return (
@@ -68,7 +75,7 @@ function NavProfile() {
                             <span>Profil</span>
                         </li>
                         <li
-                            onClick={() => setLoggedIn(false)}
+                            onClick={handleLogout}
                             className='flex items-center gap-2 whitespace-nowrap p-2 transition-all duration-200 hover:bg-yellow-400'
                         >
                             <span className='flex h-7 w-7 items-center justify-center'>

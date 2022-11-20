@@ -6,6 +6,7 @@ import { Link as Scroll } from 'react-scroll';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Link from 'next/link';
 
 export default function Home() {
     useEffect(() => {
@@ -121,19 +122,25 @@ export default function Home() {
                                         key={index}
                                         className='group relative h-72 w-64 grow cursor-pointer overflow-hidden bg-white'
                                     >
-                                        <span className='absolute bottom-0 z-10 w-full p-2 text-center'>
-                                            {data.name}
-                                        </span>
-                                        <div className='relative h-full w-full brightness-75 transition-all duration-200 group-hover:scale-110 group-hover:brightness-100'>
-                                            <Image
-                                                src={`/api/imageproxy?url=${encodeURIComponent(
-                                                    data.img
-                                                )}`}
-                                                alt='img'
-                                                layout='fill'
-                                                objectFit='cover'
-                                            />
-                                        </div>
+                                        <Link
+                                            href={`detail/${data.name
+                                                .split(' ')
+                                                .join('_')}`}
+                                        >
+                                            <span className='absolute bottom-0 z-10 w-full p-2 text-center'>
+                                                {data.name}
+                                            </span>
+                                            <div className='relative h-full w-full brightness-75 transition-all duration-200 group-hover:scale-110 group-hover:brightness-100'>
+                                                <Image
+                                                    src={`/api/imageproxy?url=${encodeURIComponent(
+                                                        data.img
+                                                    )}`}
+                                                    alt='img'
+                                                    layout='fill'
+                                                    objectFit='cover'
+                                                />
+                                            </div>
+                                        </Link>
                                     </li>
                                 );
                             })}

@@ -48,7 +48,7 @@ function Navbar() {
                         Sejarah
                     </Scroll>
                 </li>
-                <li className='cursor-pointer transition-all duration-200 hover:text-rose-500 hover:underline'>
+                <li className='cursor-pointer transition-all duration-200 hover:text-pink-500 hover:underline'>
                     <Scroll
                         to='wisata'
                         smooth={true}
@@ -76,6 +76,9 @@ function Navbar() {
                         </option>
                         <option value='EN' className='text-black'>
                             EN
+                        </option>
+                        <option value='CH' className='text-black'>
+                            CH
                         </option>
                     </select>
                 </div>

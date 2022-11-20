@@ -4,12 +4,9 @@ import Logo from '../public/logo.png';
 
 function Footer() {
     return (
-        <footer className='mt-20 rounded-lg bg-black bg-opacity-30 p-4 backdrop-blur-sm md:px-6 md:py-8'>
+        <footer className='mt-20 rounded-lg bg-black bg-opacity-30 p-4 backdrop-blur-sm md:px-20 md:py-8'>
             <div className='sm:flex sm:items-center sm:justify-between'>
-                <Link
-                    href='https://flowbite.com/'
-                    className='mb-4 flex items-center gap-2 sm:mb-0'
-                >
+                <Link href='/' className='mb-4 flex items-center gap-2 sm:mb-0'>
                     <div className='relative h-10 w-10'>
                         <Image src={Logo} layout='fill' alt='logo' />
                     </div>
@@ -42,11 +39,7 @@ function Footer() {
             </div>
             <hr className='my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8' />
             <span className='block text-sm text-gray-500 dark:text-gray-400 sm:text-center'>
-                © 2022{' '}
-                <a href='https://flowbite.com/' className='hover:underline'>
-                    Visit Malang™
-                </a>
-                . All Rights Reserved.
+                © 2022 Visit Malang™ . All Rights Reserved.
             </span>
         </footer>
     );
