@@ -34,9 +34,7 @@ function Detail() {
                         data-aos-duration='1000'
                     >
                         <Image
-                            src={`/api/imageproxy?url=${encodeURIComponent(
-                                data.img
-                            )}`}
+                            src={data.img}
                             alt='img'
                             layout='fill'
                             objectFit='cover'
