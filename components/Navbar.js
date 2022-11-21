@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from 'react';
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import Logo from '../public/logo.png';
 import { Link as Scroll } from 'react-scroll';
 import Link from 'next/link';
@@ -29,7 +29,7 @@ function Navbar() {
             {/* logo */}
             <Link href={'/'} className='flex items-center gap-2'>
                 <div className='relative h-10 w-10'>
-                    <Image src={Logo} layout='fill' alt='logo' />
+                    <Image src={Logo} fill alt='logo' />
                 </div>
                 <span className='text-xl font-semibold'>Visit Malang</span>
             </Link>

@@ -1,5 +1,5 @@
 import Layout from '../../widgets/layout';
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -48,8 +48,8 @@ function Booking() {
                                             'https://asset.kompas.com/crops/yNUkePDvWSGjkzB2DfqSX4aB4RM=/21x0:813x528/750x500/data/photo/2022/03/24/623bfd0db517b.png'
                                         )}`}
                                         alt='img'
-                                        layout='fill'
-                                        objectFit='cover'
+                                        fill
+                                        className='object-cover'
                                     />
                                 </div>
                             </Link>
@@ -70,8 +70,8 @@ function Booking() {
                                             'https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/08/07/1549777459.png'
                                         )}`}
                                         alt='img'
-                                        layout='fill'
-                                        objectFit='cover'
+                                        fill
+                                        className='object-cover'
                                     />
                                 </div>
                             </Link>
