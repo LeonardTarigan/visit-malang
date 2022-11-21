@@ -149,9 +149,7 @@ export default function Home() {
                                                 </span>
                                                 <div className='relative h-full w-full brightness-75 transition-all duration-200 group-hover:scale-110 group-hover:brightness-100'>
                                                     <Image
-                                                        src={`/api/imageproxy?url=${encodeURIComponent(
-                                                            data.img
-                                                        )}`}
+                                                        src={data.img}
                                                         alt='img'
                                                         layout='fill'
                                                         objectFit='cover'
