@@ -14,7 +14,6 @@ function NavInput() {
 
         setSearchRes(
             wisata.data.filter((data) => {
-                const regex = `/bro/i`;
                 return data.name
                     .toLowerCase()
                     .includes(searchInput.toLowerCase());
@@ -26,7 +25,7 @@ function NavInput() {
         router.push('/search');
     };
 
-    useEffect(() => {}, [searchRes]);
+    // useEffect(() => {}, [searchRes]);
 
     return (
         <form className='w-[15rem]' onSubmit={handleSubmit}>

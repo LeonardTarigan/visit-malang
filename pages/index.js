@@ -107,43 +107,60 @@ export default function Home() {
 
                     <section id='wisata'>
                         <div className='mb-10 flex h-fit items-center justify-between'>
-                            <h2 className='text-3xl font-semibold'>
+                            <h2
+                                data-aos='fade-right'
+                                data-aos-duration='1000'
+                                className='text-3xl font-semibold'
+                            >
                                 Wisata Kota Malang
                             </h2>
 
-                            <button className='w-fit border border-white py-2 px-5 font-semibold transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400 hover:text-black'>
+                            <button
+                                data-aos='fade-in'
+                                data-aos-duration='1000'
+                                data-aos-delay='100'
+                                className='w-fit border border-white py-2 px-5 font-semibold transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400 hover:text-black'
+                            >
                                 Rekomendasi
                             </button>
                         </div>
                         <ul className='flex flex-wrap'>
-                            {wisata.data.map((data, index) => {
-                                return (
-                                    <li
-                                        key={index}
-                                        className='group relative h-72 w-64 grow cursor-pointer overflow-hidden bg-white'
-                                    >
-                                        <Link
-                                            href={`detail/${data.name
-                                                .split(' ')
-                                                .join('_')}`}
+                            {wisata.data
+                                .filter((data) => {
+                                    return data.type === 'wisata';
+                                })
+                                .map((data, index) => {
+                                    return (
+                                        <li
+                                            key={index}
+                                            data-aos='fade-in'
+                                            data-aos-duration='700'
+                                            data-aos-delay={index * 100}
+                                            data-aos-anchor='.pics'
+                                            className='pics group relative h-72 w-64 grow cursor-pointer overflow-hidden bg-white'
                                         >
-                                            <span className='absolute bottom-0 z-10 w-full p-2 text-center'>
-                                                {data.name}
-                                            </span>
-                                            <div className='relative h-full w-full brightness-75 transition-all duration-200 group-hover:scale-110 group-hover:brightness-100'>
-                                                <Image
-                                                    src={`/api/imageproxy?url=${encodeURIComponent(
-                                                        data.img
-                                                    )}`}
-                                                    alt='img'
-                                                    layout='fill'
-                                                    objectFit='cover'
-                                                />
-                                            </div>
-                                        </Link>
-                                    </li>
-                                );
-                            })}
+                                            <Link
+                                                href={`detail/${data.name
+                                                    .split(' ')
+                                                    .join('_')}`}
+                                            >
+                                                <span className='absolute bottom-0 z-10 w-full p-2 text-center'>
+                                                    {data.name}
+                                                </span>
+                                                <div className='relative h-full w-full brightness-75 transition-all duration-200 group-hover:scale-110 group-hover:brightness-100'>
+                                                    <Image
+                                                        src={`/api/imageproxy?url=${encodeURIComponent(
+                                                            data.img
+                                                        )}`}
+                                                        alt='img'
+                                                        layout='fill'
+                                                        objectFit='cover'
+                                                    />
+                                                </div>
+                                            </Link>
+                                        </li>
+                                    );
+                                })}
                         </ul>
                     </section>
                 </main>

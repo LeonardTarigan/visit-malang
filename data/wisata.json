@@ -2,63 +2,142 @@
     "data": [
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1595985797/blog/jxhiizi3fa4ryicdymob.webp",
-            "name": "Gunung Bromo"
+            "name": "Gunung Bromo",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624830328/blog/dmts9v3u6xx4vyrc2y89.webp",
-            "name": "Jatim Park 1"
+            "name": "Jatim Park 1",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624831039/blog/zv782wq4fmvneti3gkyj.webp",
-            "name": "Jatim Park 2"
+            "name": "Jatim Park 2",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624831237/blog/o1mthvsi4kkglel6ebnm.webp",
-            "name": "Jatim Park 3"
+            "name": "Jatim Park 3",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624831464/blog/vwsxc7tllrf8hjx2yxvw.webp",
-            "name": "Alun-Alun"
+            "name": "Alun-Alun",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1602843360/blog/xe0kmiauxwzs3tamuend.webp",
-            "name": "Kampung Warna-Warni"
+            "name": "Kampung Warna-Warni",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624852864/blog/srpsao0lxvd7gr2xys3a.webp",
-            "name": "Kampung Biru Arema"
+            "name": "Kampung Biru Arema",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624853678/blog/puca3gyjn1yd1azvd1vy.webp",
-            "name": "Batu Night Spectacular"
+            "name": "Batu Night Spectacular",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624853932/blog/ogapz4zwfa21qlnr2bkc.webp",
-            "name": "Taman Labirin Coban Rondo"
+            "name": "Taman Labirin Coban Rondo",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1604647242/blog/hri3pkgx8lm6zhywq4qk.webp",
-            "name": "Museum Angkut"
+            "name": "Museum Angkut",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624854305/blog/rgvmoiq06zzk0waj8fip.webp",
-            "name": "Lumbung Stroberi Batu"
+            "name": "Lumbung Stroberi Batu",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624854501/blog/wivm8t3jiagzmcbwydg2.webp",
-            "name": "Omah Kayu"
+            "name": "Omah Kayu",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624855172/blog/naccek2vqm1idugsqmqg.webp",
-            "name": "Taman Selecta"
+            "name": "Taman Selecta",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624855473/blog/ykmden9i0hyqpfqbml6q.webp",
-            "name": "The Onsen Hot Spring Resort"
+            "name": "The Onsen Hot Spring Resort",
+            "desc": "",
+            "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624855947/blog/cppkda1xsxcally2z1h9.webp",
-            "name": "San Terra de Lafonte"
+            "name": "San Terra de Lafonte",
+            "desc": "",
+            "type": "wisata"
+        },
+        {
+            "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/284135278.jpg?k=f73fefd17033820f2f04696167a9ef3744ec245f085b575e495954f7840268f4&o=&hp=1",
+            "name": "Omah Lumut",
+            "type": "villa"
+        },
+        {
+            "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/218604170.jpg?k=8d4b64a88da3aefc749f3fd3d60bd8433ebd788e427c4212cf73d46cad5e3567&o=&hp=1",
+            "name": "Nusin 54 Homestay",
+            "type": "villa"
+        },
+        {
+            "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/301323495.jpg?k=72153c5b8d8309f45ef1a8229bbd5592f6183b3a79c64777fcaafa79e58cf1ea&o=&hp=1",
+            "name": "The Awan's Home",
+            "type": "villa"
+        },
+        {
+            "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/290627900.jpg?k=087b1ac66806566c820072a9c756b1c6422d14dbada1eb411b0ae68775e8228c&o=&hp=1",
+            "name": "Sierra Villa Malang",
+            "type": "villa"
+        },
+        {
+            "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/379849366.jpg?k=3e7f3a98671787b07bca815cfe7d1dcb03765f6b3d0d05a9eb5c7878f74b2dc3&o=&hp=1",
+            "name": "Elbanna Home 5BR",
+            "type": "villa"
+        },
+        {
+            "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/355986138.jpg?k=736851d3e2df59cffa45e335eea8151ba8d399c5af3c8ecec9b868c5e7c74067&o=&hp=1",
+            "name": "Ardmore A10 Homestay",
+            "type": "villa"
+        },
+        {
+            "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/323248608.jpg?k=4355ed67590b469ecc456aa80b095fd73349291ef967cb1c49abc133f0c9f271&o=&hp=1",
+            "name": "Tomohon Private Pool Villa",
+            "type": "villa"
+        },
+        {
+            "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/318535276.jpg?k=94ebfd56d580604ca3e0d727837e691459989993330d58b84e1cd2175f460fbc&o=&hp=1",
+            "name": "Villa Keluarga Pandansari",
+            "type": "villa"
+        },
+        {
+            "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/295637053.jpg?k=0f78186a8675d2bbdcba533438c91658e5561fd35ee6cded512a75d08bebc4f3&o=&hp=1",
+            "name": "Villa Kebun Jeruk Syariah",
+            "type": "villa"
+        },
+        {
+            "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/274184341.jpg?k=fa8c2d5eb9aeca2fdd02e2ff8e6b0c7495298addcad027605573baedec465926&o=&hp=1",
+            "name": "Villa Marry Ind Gunung Kawi",
+            "type": "villa"
         }
     ]
 }
