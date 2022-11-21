@@ -1,5 +1,5 @@
 import Layout from '../../widgets/layout';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -44,12 +44,13 @@ function Booking() {
                                 </span>
                                 <div className='relative h-full w-full brightness-75 transition-all duration-200 group-hover:scale-110 group-hover:brightness-100'>
                                     <Image
-                                        src={`/api/imageproxy?url=${encodeURIComponent(
+                                        src={
                                             'https://asset.kompas.com/crops/yNUkePDvWSGjkzB2DfqSX4aB4RM=/21x0:813x528/750x500/data/photo/2022/03/24/623bfd0db517b.png'
-                                        )}`}
+                                        }
+                                        priority
                                         alt='img'
-                                        fill
-                                        className='object-cover'
+                                        layout='fill'
+                                        objectFit='cover'
                                     />
                                 </div>
                             </Link>
@@ -66,12 +67,13 @@ function Booking() {
                                 </span>
                                 <div className='relative h-full w-full brightness-75 transition-all duration-200 group-hover:scale-110 group-hover:brightness-100'>
                                     <Image
-                                        src={`/api/imageproxy?url=${encodeURIComponent(
+                                        src={
                                             'https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/08/07/1549777459.png'
-                                        )}`}
+                                        }
+                                        priority
                                         alt='img'
-                                        fill
-                                        className='object-cover'
+                                        layout='fill'
+                                        objectFit='cover'
                                     />
                                 </div>
                             </Link>

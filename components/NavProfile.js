@@ -50,9 +50,9 @@ function NavProfile() {
                         className='relative h-10 w-10 cursor-pointer overflow-hidden rounded-full'
                     >
                         <Image
-                            src={`/api/imageproxy?url=${encodeURIComponent(
+                            src={
                                 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGj807ryXilh3XkXfTzlg1QpsmaduSOScd2g&usqp=CAU'
-                            )}`}
+                            }
                             layout='fill'
                             objectFit='cover'
                             alt='logo'

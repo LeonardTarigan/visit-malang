@@ -150,7 +150,8 @@ export default function Home() {
                                                 <div className='relative h-full w-full brightness-75 transition-all duration-200 group-hover:scale-110 group-hover:brightness-100'>
                                                     <Image
                                                         src={data.img}
-                                                        alt='img'
+                                                        alt={data.name}
+                                                        priority
                                                         layout='fill'
                                                         objectFit='cover'
                                                     />

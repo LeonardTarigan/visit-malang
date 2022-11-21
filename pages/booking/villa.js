@@ -64,11 +64,7 @@ function Villa() {
                                 id='location'
                                 className='h-9 rounded-lg px-2 text-black focus:outline-none'
                             >
-                                <option
-                                    selected
-                                    value={''}
-                                    className='text-black'
-                                >
+                                <option value={''} className='text-black'>
                                     Pilih Villa
                                 </option>
                                 {wisata.data
@@ -155,9 +151,7 @@ function Villa() {
                                             <li className='res flex h-52 w-[40rem] max-w-screen-lg cursor-pointer overflow-hidden rounded-lg bg-black bg-opacity-40 backdrop-blur-sm'>
                                                 <div className='relative h-full w-[15rem] basis-2/6'>
                                                     <Image
-                                                        src={`/api/imageproxy?url=${encodeURIComponent(
-                                                            data.img
-                                                        )}`}
+                                                        src={data.img}
                                                         layout='fill'
                                                         alt='logo'
                                                         objectFit='cover'
