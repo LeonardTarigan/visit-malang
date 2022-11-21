@@ -1,19 +1,19 @@
 import Layout from '../../widgets/layout';
 import wisata from '../../data/wisata.json';
 import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import Image from 'next/legacy/image';
 import Link from 'next/link';
+import { GlobalContext } from '../../context/GlobalContext';
 
 function Villa() {
     const router = useRouter();
+
+    const { state } = useContext(GlobalContext);
+    const { villaInput, setvillaInput } = state;
+
     const [villas, setVillas] = useState([]);
-    const [villaInput, setvillaInput] = useState({
-        location: '',
-        date: '',
-        duration: 1,
-        qty: 1,
-    });
+    const [limit, setLimit] = useState(4);
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -45,9 +45,7 @@ function Villa() {
                 })
             );
         }
-    }, [villaInput.location]);
-
-    console.log(villas);
+    }, [villaInput.location, limit, villas.length]);
 
     return (
         <>
@@ -142,43 +140,57 @@ function Villa() {
 
                     <ul className='flex flex-col items-center justify-center gap-5'>
                         {villas &&
-                            villas.map((data, index) => {
-                                return (
-                                    <Link
-                                        key={index}
-                                        href={`/detail/${data.name
-                                            .split(' ')
-                                            .join('_')}`}
-                                    >
-                                        <li className='res flex h-52 w-[40rem] max-w-screen-lg cursor-pointer overflow-hidden rounded-lg bg-black bg-opacity-40 backdrop-blur-sm'>
-                                            <div className='relative h-full w-[15rem] basis-2/6'>
-                                                <Image
-                                                    src={`/api/imageproxy?url=${encodeURIComponent(
-                                                        data.img
-                                                    )}`}
-                                                    layout='fill'
-                                                    alt='logo'
-                                                    objectFit='cover'
-                                                />
-                                            </div>
-                                            <div className='flex grow basis-3/6 flex-col gap-3 rounded-r-lg border border-transparent p-5 transition-all duration-200 hover:border-zinc-500'>
-                                                <h1 className='text-xl font-semibold'>
-                                                    {data.name}
-                                                </h1>
-                                                <p className='text-sm'>
-                                                    Lorem ipsum dolor sit, amet
-                                                    consectetur adipisicing
-                                                    elit. Ad quisquam esse id
-                                                    corrupti explicabo soluta
-                                                    sed aut vitae, dicta
-                                                    facilis.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </Link>
-                                );
-                            })}
+                            villas
+                                .filter((data, index) => {
+                                    return index < limit;
+                                })
+                                .map((data, index) => {
+                                    return (
+                                        <Link
+                                            key={index}
+                                            href={`/detail/${data.name
+                                                .split(' ')
+                                                .join('_')}`}
+                                        >
+                                            <li className='res flex h-52 w-[40rem] max-w-screen-lg cursor-pointer overflow-hidden rounded-lg bg-black bg-opacity-40 backdrop-blur-sm'>
+                                                <div className='relative h-full w-[15rem] basis-2/6'>
+                                                    <Image
+                                                        src={`/api/imageproxy?url=${encodeURIComponent(
+                                                            data.img
+                                                        )}`}
+                                                        layout='fill'
+                                                        alt='logo'
+                                                        objectFit='cover'
+                                                    />
+                                                </div>
+                                                <div className='flex grow basis-3/6 flex-col gap-3 rounded-r-lg border border-transparent p-5 transition-all duration-200 hover:border-zinc-500'>
+                                                    <h1 className='text-xl font-semibold'>
+                                                        {data.name}
+                                                    </h1>
+                                                    <p className='text-sm'>
+                                                        Lorem ipsum dolor sit,
+                                                        amet consectetur
+                                                        adipisicing elit. Ad
+                                                        quisquam esse id
+                                                        corrupti explicabo
+                                                        soluta sed aut vitae,
+                                                        dicta facilis.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </Link>
+                                    );
+                                })}
                     </ul>
+
+                    {limit < villas.length && (
+                        <button
+                            onClick={() => setLimit(limit + 4)}
+                            className='border border-white py-2 px-5 text-xs transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400 hover:text-black'
+                        >
+                            Muat Lebih Banyak
+                        </button>
+                    )}
                 </main>
             </Layout>
         </>

@@ -6,6 +6,12 @@ function GlobalProvider(props) {
     const [loggedIn, setLoggedIn] = useState(false);
     const [searchInput, setSearchInput] = useState('');
     const [searchRes, setSearchRes] = useState([]);
+    const [villaInput, setvillaInput] = useState({
+        location: '',
+        date: '',
+        duration: 1,
+        qty: 1,
+    });
 
     const state = {
         loggedIn,
@@ -14,6 +20,8 @@ function GlobalProvider(props) {
         setSearchRes,
         searchInput,
         setSearchInput,
+        villaInput,
+        setvillaInput,
     };
 
     return (

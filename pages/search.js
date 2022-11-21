@@ -42,13 +42,7 @@ function Search() {
                                             .split(' ')
                                             .join('_')}`}
                                     >
-                                        <li
-                                            data-aos='fade-in'
-                                            data-aos-duration='2000'
-                                            data-aos-delay={index * 100}
-                                            data-aos-anchor='.res'
-                                            className='res flex h-52 w-full max-w-screen-lg cursor-pointer overflow-hidden rounded-lg bg-black bg-opacity-40 backdrop-blur-sm'
-                                        >
+                                        <li className='res flex h-52 w-full max-w-screen-lg cursor-pointer overflow-hidden rounded-lg bg-black bg-opacity-40 backdrop-blur-sm'>
                                             <div className='relative h-full w-[15rem] basis-1/5'>
                                                 <Image
                                                     src={`/api/imageproxy?url=${encodeURIComponent(

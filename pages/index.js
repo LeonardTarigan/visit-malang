@@ -37,11 +37,11 @@ export default function Home() {
                             data-aos-duration='1000'
                             data-aos-delay='100'
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Aliquam dolorem cumque, culpa in eum quasi?
-                            Perferendis aliquid iste sequi quas tempore,
-                            recusandae, saepe, eveniet pariatur placeat magni
-                            accusantium? Nisi, ratione.
+                            Jelajahi kota penuh warna dengan segudang
+                            tempat-tempat yang pastinya menarik untuk
+                            dikunjungi. Kami mengakomodasi informasi dan
+                            pemesanan tiket wisata maupun villa yang ada di Kota
+                            Malang.
                         </p>
                         <Scroll
                             to='sejarah'
