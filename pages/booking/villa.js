@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import { useContext, useEffect, useState } from 'react';
 import Image from 'next/legacy/image';
 import Link from 'next/link';
+import Head from 'next/head';
 import { GlobalContext } from '../../context/GlobalContext';
 
 function Villa() {
@@ -49,6 +50,12 @@ function Villa() {
 
     return (
         <>
+            <Head>
+                <title>Visit Malang</title>
+                <meta name='description' content='Jelajahi Kota Malang' />
+                <link rel='icon' href='/favicon.ico' />
+            </Head>
+
             <Layout>
                 <main className='flex h-fit flex-col items-center gap-10 scroll-smooth px-20'>
                     <form
