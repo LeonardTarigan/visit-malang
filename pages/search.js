@@ -45,11 +45,9 @@ function Search() {
                                         <li className='res flex h-52 w-full max-w-screen-lg cursor-pointer overflow-hidden rounded-lg bg-black bg-opacity-40 backdrop-blur-sm'>
                                             <div className='relative h-full w-[15rem] basis-1/5'>
                                                 <Image
-                                                    src={`/api/imageproxy?url=${encodeURIComponent(
-                                                        data.img
-                                                    )}`}
+                                                    src={data.img}
+                                                    alt={data.name}
                                                     layout='fill'
-                                                    alt='logo'
                                                     objectFit='cover'
                                                 />
                                             </div>

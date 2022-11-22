@@ -48,7 +48,7 @@ function Booking() {
                                             'https://asset.kompas.com/crops/yNUkePDvWSGjkzB2DfqSX4aB4RM=/21x0:813x528/750x500/data/photo/2022/03/24/623bfd0db517b.png'
                                         }
                                         priority
-                                        alt='img'
+                                        alt='villa'
                                         layout='fill'
                                         objectFit='cover'
                                     />
@@ -71,7 +71,7 @@ function Booking() {
                                             'https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/08/07/1549777459.png'
                                         }
                                         priority
-                                        alt='img'
+                                        alt='wisata'
                                         layout='fill'
                                         objectFit='cover'
                                     />

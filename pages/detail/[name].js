@@ -35,7 +35,7 @@ function Detail() {
                     >
                         <Image
                             src={data.img}
-                            alt='img'
+                            alt={data.name}
                             layout='fill'
                             objectFit='cover'
                         />

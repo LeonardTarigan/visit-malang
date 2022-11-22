@@ -153,7 +153,7 @@ function Villa() {
                                                     <Image
                                                         src={data.img}
                                                         layout='fill'
-                                                        alt='logo'
+                                                        alt={data.name}
                                                         objectFit='cover'
                                                     />
                                                 </div>
