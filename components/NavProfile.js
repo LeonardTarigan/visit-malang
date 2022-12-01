@@ -60,7 +60,7 @@ function NavProfile() {
                     </div>
                     {openMenu && (
                         <ul
-                            className={`absolute -bottom-[9.5rem] flex h-fit w-fit cursor-pointer  flex-col justify-center overflow-hidden rounded-md bg-white text-sm text-black transition-all duration-200`}
+                            className={`-bottom-[9.5rem] hidden h-fit w-fit cursor-pointer flex-col justify-center  overflow-hidden rounded-md bg-white text-sm text-black transition-all duration-200 md:absolute md:flex`}
                         >
                             <li className='flex items-center gap-2 p-2 transition-all duration-200 hover:bg-yellow-400'>
                                 <span className='flex h-7 w-7 items-center justify-center'>
@@ -99,14 +99,16 @@ function NavProfile() {
                                 <span className='flex h-7 w-7 items-center justify-center'>
                                     <svg
                                         className='h-6 w-6'
-                                        fill='currentColor'
-                                        viewBox='0 0 20 20'
+                                        fill='none'
+                                        stroke='currentColor'
+                                        viewBox='0 0 24 24'
                                         xmlns='http://www.w3.org/2000/svg'
                                     >
                                         <path
-                                            fillRule='evenodd'
-                                            d='M3 3a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1zm10.293 9.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L14.586 9H7a1 1 0 100 2h7.586l-1.293 1.293z'
-                                            clipRule='evenodd'
+                                            strokeLinecap='round'
+                                            strokeLinejoin='round'
+                                            strokeWidth={2}
+                                            d='M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1'
                                         />
                                     </svg>
                                 </span>

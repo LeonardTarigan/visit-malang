@@ -57,10 +57,10 @@ function Villa() {
             </Head>
 
             <Layout>
-                <main className='flex h-fit flex-col items-center gap-10 scroll-smooth px-20'>
+                <main className='flex h-fit flex-col items-center gap-10 scroll-smooth px-5 md:px-20'>
                     <form
                         onSubmit={handleSubmit}
-                        className='flex h-fit w-[40rem] flex-col gap-5 rounded-lg bg-black bg-opacity-30 p-5 text-sm backdrop-blur-md'
+                        className='flex h-fit w-full flex-col gap-5 rounded-lg bg-black bg-opacity-30 p-5 text-sm backdrop-blur-md md:w-[40rem]'
                     >
                         <div className='flex flex-col gap-2'>
                             <label htmlFor='location'>Lokasi</label>
@@ -155,7 +155,7 @@ function Villa() {
                                                 .split(' ')
                                                 .join('_')}`}
                                         >
-                                            <li className='res flex h-52 w-[40rem] max-w-screen-lg cursor-pointer overflow-hidden rounded-lg bg-black bg-opacity-40 backdrop-blur-sm'>
+                                            <li className='res flex h-40 w-full max-w-screen-lg cursor-pointer overflow-hidden rounded-lg bg-black bg-opacity-40 backdrop-blur-sm md:h-52 md:w-[40rem]'>
                                                 <div className='relative h-full w-[15rem] basis-2/6'>
                                                     <Image
                                                         src={data.img}
@@ -164,18 +164,15 @@ function Villa() {
                                                         objectFit='cover'
                                                     />
                                                 </div>
-                                                <div className='flex grow basis-3/6 flex-col gap-3 rounded-r-lg border border-transparent p-5 transition-all duration-200 hover:border-zinc-500'>
-                                                    <h1 className='text-xl font-semibold'>
+                                                <div className='flex grow basis-3/6 flex-col gap-3 rounded-r-lg border border-transparent p-3 transition-all duration-200 hover:border-zinc-500 md:p-5'>
+                                                    <h1 className='text-base font-semibold md:text-xl'>
                                                         {data.name}
                                                     </h1>
-                                                    <p className='text-sm'>
+                                                    <p className='text-xs md:text-sm'>
                                                         Lorem ipsum dolor sit,
                                                         amet consectetur
                                                         adipisicing elit. Ad
-                                                        quisquam esse id
-                                                        corrupti explicabo
-                                                        soluta sed aut vitae,
-                                                        dicta facilis.
+                                                        quisquam esse id.
                                                     </p>
                                                 </div>
                                             </li>

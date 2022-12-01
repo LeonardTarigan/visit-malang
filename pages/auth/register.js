@@ -15,7 +15,7 @@ function Register() {
             </Head>
 
             <Layout>
-                <section className='flex h-fit justify-center gap-10 px-20'>
+                <section className='flex h-fit justify-center gap-10 px-5 md:px-20'>
                     <form
                         onSubmit={handleSubmit}
                         className='flex h-fit w-[28rem] flex-col items-center gap-10 rounded-lg bg-black bg-opacity-30 p-5 backdrop-blur-md'

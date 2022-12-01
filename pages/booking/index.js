@@ -23,15 +23,15 @@ function Booking() {
             </Head>
 
             <Layout>
-                <main className='flex h-fit flex-col gap-10 scroll-smooth px-20'>
+                <main className='flex h-fit flex-col gap-10 scroll-smooth px-5 md:px-20'>
                     <h1
                         data-aos='fade-right'
                         data-aos-duration='1000'
-                        className='text-3xl font-semibold'
+                        className='text-center text-2xl font-semibold md:text-start md:text-3xl'
                     >
                         Menu Booking
                     </h1>
-                    <ul className='flex h-[20rem] gap-10'>
+                    <ul className='flex h-[30rem] flex-col flex-wrap gap-10 md:h-[20rem] md:flex-row'>
                         <li
                             data-aos='zoom-in'
                             data-aos-duration='1000'

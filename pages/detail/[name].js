@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
+import { GlobalContext } from '../../context/GlobalContext';
 import Head from 'next/head';
 import Layout from '../../widgets/layout';
 import wisata from '../../data/wisata.json';
@@ -10,13 +11,31 @@ import 'aos/dist/aos.css';
 function Detail() {
     const router = useRouter();
     const { name } = router.query;
+    const { state } = useContext(GlobalContext);
+
+    const { villaIput, setVillaInput, wisataInput, setWisataInput } = state;
 
     const [data, setData] = useState();
+
+    const [type, setType] = useState('');
+
+    const handleBuy = () => {
+        if (type === 'wisata') {
+            setWisataInput({ ...wisataInput, location: data.location });
+            router.push('/booking/ticket');
+        } else {
+            router.push('/booking/villa');
+        }
+    };
 
     useEffect(() => {
         if (name) {
             setData(
                 wisata.data.find((data) => {
+                    data.type === 'wisata'
+                        ? setType('wisata')
+                        : setType('villa');
+
                     return data.name === name.replace(/_/g, ' ');
                 })
             );
@@ -77,12 +96,15 @@ function Detail() {
                             </div>
 
                             <button
+                                onClick={handleBuy}
                                 className='border border-white py-2 transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400 hover:text-black'
                                 data-aos='fade-right'
                                 data-aos-duration='1000'
                                 data-aos-delay='300'
                             >
-                                Beli Tiket
+                                {type === 'wisata'
+                                    ? 'Beli Tiket'
+                                    : 'Booking Villa'}
                             </button>
                         </section>
                     </main>

@@ -22,17 +22,20 @@ export default function Home() {
             </Head>
 
             <Layout>
-                <main id='main' className='flex h-fit flex-col gap-20 px-20'>
-                    <section className='mb-20 flex h-[27rem] flex-col justify-center gap-10'>
+                <main
+                    id='main'
+                    className='flex h-fit flex-col gap-20 px-5 md:px-20'
+                >
+                    <section className='mb-20 mt-20 flex h-[27rem] flex-col justify-center gap-10 md:mt-0'>
                         <h1
-                            className='text-5xl font-semibold'
+                            className='text-4xl font-semibold md:text-5xl'
                             data-aos='fade-right'
                             data-aos-duration='1000'
                         >
                             Selamat Datang di Malang
                         </h1>
                         <p
-                            className='w-2/3'
+                            className='md:w-2/3'
                             data-aos='fade-right'
                             data-aos-duration='1000'
                             data-aos-delay='100'
@@ -60,7 +63,7 @@ export default function Home() {
 
                     <section id='sejarah' className='mb-20 flex flex-col gap-5'>
                         <h2
-                            className='text-3xl font-semibold'
+                            className='text-2xl font-semibold md:text-3xl'
                             data-aos='fade-right'
                             data-aos-duration='1000'
                         >
@@ -70,6 +73,7 @@ export default function Home() {
                             data-aos='fade-right'
                             data-aos-duration='1000'
                             data-aos-delay='100'
+                            className='text-sm md:text-base'
                         >
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Porro optio iusto et qui possimus ratione
@@ -110,7 +114,7 @@ export default function Home() {
                             <h2
                                 data-aos='fade-right'
                                 data-aos-duration='1000'
-                                className='text-3xl font-semibold'
+                                className='text-2xl font-semibold md:text-3xl'
                             >
                                 Wisata Kota Malang
                             </h2>
@@ -119,7 +123,7 @@ export default function Home() {
                                 data-aos='fade-in'
                                 data-aos-duration='1000'
                                 data-aos-delay='100'
-                                className='w-fit border border-white py-2 px-5 font-semibold transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400 hover:text-black'
+                                className='w-fit border border-white py-2 px-5 text-sm font-semibold transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400 hover:text-black md:text-base'
                             >
                                 Rekomendasi
                             </button>
@@ -144,7 +148,7 @@ export default function Home() {
                                                     .split(' ')
                                                     .join('_')}`}
                                             >
-                                                <span className='absolute bottom-0 z-10 w-full p-2 text-center'>
+                                                <span className='absolute bottom-5 z-10 w-full p-2 text-center'>
                                                     {data.name}
                                                 </span>
                                                 <div className='relative h-full w-full brightness-75 transition-all duration-200 group-hover:scale-110 group-hover:brightness-100'>
