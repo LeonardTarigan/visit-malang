@@ -53,9 +53,9 @@ function Detail() {
             </Head>
             <Layout>
                 {data && (
-                    <main className='flex h-fit gap-10 scroll-smooth px-20'>
+                    <main className='flex h-fit flex-col gap-10 scroll-smooth px-5 md:flex-row md:px-20'>
                         <div
-                            className='relative h-[25rem] w-[20rem] basis-2/6 overflow-hidden rounded-lg'
+                            className='pic relative h-[20rem] w-full overflow-hidden rounded-lg md:h-[25rem] md:w-[20rem] md:basis-2/6'
                             data-aos='fade-right'
                             data-aos-duration='1000'
                         >
@@ -67,13 +67,15 @@ function Detail() {
                             />
                         </div>
 
-                        <section className='flex basis-4/5 flex-col justify-between'>
+                        <section className='flex flex-col justify-between md:basis-4/6'>
                             <div>
                                 <h1
-                                    className='mb-5 text-3xl font-semibold'
+                                    className='mb-5 text-2xl font-semibold md:text-3xl'
                                     data-aos='fade-right'
                                     data-aos-duration='1000'
                                     data-aos-delay='100'
+                                    data-aos-anchor='.pic'
+                                    data-aos-once='true'
                                 >
                                     {data.name}
                                 </h1>
@@ -81,6 +83,9 @@ function Detail() {
                                     data-aos='fade-right'
                                     data-aos-duration='1000'
                                     data-aos-delay='200'
+                                    className='desc text-sm md:text-base'
+                                    data-aos-anchor='.pic'
+                                    data-aos-once='true'
                                 >
                                     Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit. Autem expedita ea, quis
@@ -97,10 +102,12 @@ function Detail() {
 
                             <button
                                 onClick={handleBuy}
-                                className='border border-white py-2 transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400 hover:text-black'
+                                className='mt-10 border border-white py-2 transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400 hover:text-black'
                                 data-aos='fade-right'
                                 data-aos-duration='1000'
                                 data-aos-delay='300'
+                                data-aos-anchor='.desc'
+                                data-aos-once='true'
                             >
                                 {type === 'wisata'
                                     ? 'Beli Tiket'
