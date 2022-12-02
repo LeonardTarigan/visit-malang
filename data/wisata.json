@@ -3,13 +3,13 @@
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1595985797/blog/jxhiizi3fa4ryicdymob.webp",
             "name": "Gunung Bromo",
-            "desc": "",
+            "desc": "Gunung Bromo adalah salah satu gunung api yang masih aktif di Indonesia. Gunung yang memiliki ketinggian 2.392 meter di atas permukaan laut ini merupakan destinasi andalan Jawa Timur. Gunung Bromo berdiri gagah dikelilingi kaldera atau lautan pasir seluas 10 kilometer persegi. Wisatawan yang berkunjung ke Gunung Bromo akan disambut oleh pemandangan yang indah. Salah satu hal yang terkenal dari Gunung Bromo adalah golden sunrise-nya, pasalnya, Gunung Bromo dinobatkan sebagai tempat yang menawarkan pemandangan matahari terbit terbaik di Pulau Jawa. Sesaat setelah momen matahari terbit berakhir, wisatawan akan kembali disuguhkan pemandangan yang tak kalah indanya, yaitu pemandangan negeri di atas awan.",
             "type": "wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624830328/blog/dmts9v3u6xx4vyrc2y89.webp",
             "name": "Jatim Park 1",
-            "desc": "",
+            "desc": "Jawa Timur Park 1 atau yang biasa disebut Jatim Park 1 merupakan salah satu tempat rekreasi dan taman belajar yang terdapat di Kota Batu, Jawa Timur Indonesia. Jatim Park 1 dirancang sebagai sebuah taman bermain modern. Tempat wisata ini bisa jadi tempat melepas penat dengan lebih dari 50 wahana seru untuk berbagai kalangan usia. Beberapa wahana yang ada di sini di antaranya Spinning Coaster, 360° Pendulum, Aero Test, dan Flying Tornado. Keempatnya sangat cocok untuk menantang adrenalin kamu. Dengan memadukan secara serasi konsep pendidikan (Education) dan konsep pariwisata (Tourism) membuat objek wisata yang satu ini menjadi primadona wisata di Kota Batu. Telah terbukti  bahwa Jawa Timur Park 1 Malang merupakan objek wisata yang tidak hanya untuk objek liburan keluarga tetapi juga dapat belajar bersama di wahana pendidikan yang telah disediakan.",
             "type": "wisata"
         },
         {
@@ -57,6 +57,7 @@
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1604647242/blog/hri3pkgx8lm6zhywq4qk.webp",
             "name": "Museum Angkut",
+            "desc": "",
             "type": "wisata"
         },
         {
@@ -92,51 +93,61 @@
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/284135278.jpg?k=f73fefd17033820f2f04696167a9ef3744ec245f085b575e495954f7840268f4&o=&hp=1",
             "name": "Omah Lumut",
+            "desc": "",
             "type": "villa"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/218604170.jpg?k=8d4b64a88da3aefc749f3fd3d60bd8433ebd788e427c4212cf73d46cad5e3567&o=&hp=1",
             "name": "Nusin 54 Homestay",
+            "desc": "",
             "type": "villa"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/301323495.jpg?k=72153c5b8d8309f45ef1a8229bbd5592f6183b3a79c64777fcaafa79e58cf1ea&o=&hp=1",
             "name": "The Awan's Home",
+            "desc": "",
             "type": "villa"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/290627900.jpg?k=087b1ac66806566c820072a9c756b1c6422d14dbada1eb411b0ae68775e8228c&o=&hp=1",
             "name": "Sierra Villa Malang",
+            "desc": "",
             "type": "villa"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/379849366.jpg?k=3e7f3a98671787b07bca815cfe7d1dcb03765f6b3d0d05a9eb5c7878f74b2dc3&o=&hp=1",
             "name": "Elbanna Home 5BR",
+            "desc": "",
             "type": "villa"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/355986138.jpg?k=736851d3e2df59cffa45e335eea8151ba8d399c5af3c8ecec9b868c5e7c74067&o=&hp=1",
             "name": "Ardmore A10 Homestay",
+            "desc": "",
             "type": "villa"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/323248608.jpg?k=4355ed67590b469ecc456aa80b095fd73349291ef967cb1c49abc133f0c9f271&o=&hp=1",
             "name": "Tomohon Private Pool Villa",
+            "desc": "",
             "type": "villa"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/318535276.jpg?k=94ebfd56d580604ca3e0d727837e691459989993330d58b84e1cd2175f460fbc&o=&hp=1",
             "name": "Villa Keluarga Pandansari",
+            "desc": "",
             "type": "villa"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/295637053.jpg?k=0f78186a8675d2bbdcba533438c91658e5561fd35ee6cded512a75d08bebc4f3&o=&hp=1",
             "name": "Villa Kebun Jeruk Syariah",
+            "desc": "",
             "type": "villa"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/274184341.jpg?k=fa8c2d5eb9aeca2fdd02e2ff8e6b0c7495298addcad027605573baedec465926&o=&hp=1",
             "name": "Villa Marry Ind Gunung Kawi",
+            "desc": "",
             "type": "villa"
         }
     ]
