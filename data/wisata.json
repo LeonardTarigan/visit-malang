@@ -4,151 +4,203 @@
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1595985797/blog/jxhiizi3fa4ryicdymob.webp",
             "name": "Gunung Bromo",
             "desc": "Gunung Bromo adalah salah satu gunung api yang masih aktif di Indonesia. Gunung yang memiliki ketinggian 2.392 meter di atas permukaan laut ini merupakan destinasi andalan Jawa Timur. Gunung Bromo berdiri gagah dikelilingi kaldera atau lautan pasir seluas 10 kilometer persegi. Wisatawan yang berkunjung ke Gunung Bromo akan disambut oleh pemandangan yang indah. Salah satu hal yang terkenal dari Gunung Bromo adalah golden sunrise-nya, pasalnya, Gunung Bromo dinobatkan sebagai tempat yang menawarkan pemandangan matahari terbit terbaik di Pulau Jawa. Sesaat setelah momen matahari terbit berakhir, wisatawan akan kembali disuguhkan pemandangan yang tak kalah indanya, yaitu pemandangan negeri di atas awan.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "gunung"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624830328/blog/dmts9v3u6xx4vyrc2y89.webp",
             "name": "Jatim Park 1",
             "desc": "Jawa Timur Park 1 atau yang biasa disebut Jatim Park 1 merupakan salah satu tempat rekreasi dan taman belajar yang terdapat di Kota Batu, Jawa Timur Indonesia. Jatim Park 1 dirancang sebagai sebuah taman bermain modern. Tempat wisata ini bisa jadi tempat melepas penat dengan lebih dari 50 wahana seru untuk berbagai kalangan usia. Beberapa wahana yang ada di sini di antaranya Spinning Coaster, 360° Pendulum, Aero Test, dan Flying Tornado. Keempatnya sangat cocok untuk menantang adrenalin kamu. Dengan memadukan secara serasi konsep pendidikan (Education) dan konsep pariwisata (Tourism) membuat objek wisata yang satu ini menjadi primadona wisata di Kota Batu. Telah terbukti  bahwa Jawa Timur Park 1 Malang merupakan objek wisata yang tidak hanya untuk objek liburan keluarga tetapi juga dapat belajar bersama di wahana pendidikan yang telah disediakan.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "taman hiburan"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624831039/blog/zv782wq4fmvneti3gkyj.webp",
             "name": "Jatim Park 2",
             "desc": "Jatim Park 2 yang letaknya dekat dengan Jatim Park 1 dan BNS, tepatnya di Jl Oro-Oro Ombo No 9 Kota Batu, dirancang sebagai wahana wisata untuk keluarga. Sedikit berbeda dengan Jatim park 1 yang lebih ditujukan sebagai taman bermain dan hiburan, Jatim Park 2 lebih menunjukan tempat belajar selain tempat bermain. Jatim Park 2 mengusung konsep belajar ilmu alam, biologi dan pembelajaran satwa yang disajikan dengan latar belakang sesuai habitatnya. Jatim Park 2 termasuk tempat wisata yang cukup lengkap. Terbagi dalam tiga area, yaitu Batu Secret Zoo, Museum Satwa, dan Tree Hotel. Jatim Park 2 tak sekadar sebagai tempat berlibur tapi juga wahana belajar sesuai moto yang diusungnya Pembelajaran Satwa dan Rekreasi.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "taman hiburan"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624831237/blog/o1mthvsi4kkglel6ebnm.webp",
             "name": "Jatim Park 3",
             "desc": "Jatim Park 3 atau Jawa Timur Park 3 merupakan theme park keren yang wajib kamu kunjungi ketika berada di Kota Batu, Jawa Timur. Jawa Timur Park 3 terdiri dari beberapa bagian, yaitu Dino Park, The Legend Stars, Museum Musik Dunia, Fun Tech Plaza, Dino Mall, Museum Angkut, serta Batu Night Spectacular (BNS). Untuk Jatim Park 3 sendiri ikonnya ialah Dino Park, yang akan memberikan kamu informasi lengkap tentang kehidupan Dinosaurus. Diberi nama Dino Park karena taman rekreasi ini didominasi oleh hal-hal yang berhubungan dengan hewan prasejarah bernama Dinosaurus. Jatim Park 3 hadir dengan tehnologi yang canggih namun dibalut dengan suasana alam yang sejuk. Pas banget untuk wisata bersama keluarga, karena ramah anak.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "taman hiburan"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624831464/blog/vwsxc7tllrf8hjx2yxvw.webp",
             "name": "Alun-Alun Malang",
             "desc": "Salah satu destinasi murah meriah yang dapat dikunjungi saat berlibur ke sebuah kota adalah alun-alun. Yup, sebagai pusat kegiatan warga, alun-alun memiliki beragam fasilitas menarik, sehingga banyak masyarakat dari luar kota yang berminat untuk singgah. Alun-Alun Kota Malang merupakan tempat favorit bagi warga Malang untuk bersantai bersama keluarga menikmati suasana kota. Di Alun-Alun ini, Anda dapat menikmati keindahan air mancur taman yang terletak tepat di tengah Alun-Alun. Bukan hanya keindahan air mancur, ratusan burung merpati selalu menemani langkah Anda ketika berada di Alun-Alun Kota Malang. Ratusan burung merpati tersebut memang ditempatkan dan dirawat di Alun-Alun Kota Malang untuk lebih memberikan nuansa yang asri dan indah. Di Alun-Alun Kota Malang ini juga terdapat fasilitas hotspot yang sengaja disediakan untuk layanan pelengkap bagi pengunjung yang datang ke sini. Tidak jauh dari Alun-Alun, juga terdapat beberapa pusat perbelanjaan keluarga yang dapat Anda singgahi misalnya saja Sarinah, Ramayana, Malang Plaza, Mitra 1 dan masih banyak pusat perbelanjaan lainnya. ",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "taman hiburan"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1602843360/blog/xe0kmiauxwzs3tamuend.webp",
             "name": "Kampung Warna-Warni",
             "desc": "Kampung Warna Warni Malang atau yang dikenal juga dengan nama Kampung Jodipan ini termasuk kampung wisata pertama di Kota Malang. Kampung Warna Warni Jodipan berada di Jalan Ir. H. Juanda No. 9 RT 9 RW 2, Jodipan, Kecamatan Blimbing, Kota Malang. Sesuai namanya, setiap sudut kampung ini dihiasi dengan berbagai warna cerah dan terang yang mampu menarik perhatian. Tidak hanya dengan cat dinding saja, berbagai kerajinan tangan dan hiasan juga ikut meramaikan suasana kampung warna warni ini. Saking menariknya, tempat ini selalu menjadi langganan wisatawan yang ingin berfoto atau sekedar melihat langsung keindahan bekas kampung kumuh ini.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "kampung wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624852864/blog/srpsao0lxvd7gr2xys3a.webp",
             "name": "Kampung Biru Arema",
             "desc": "Kampung tematik ini tepat berada di seberang Kampung Warna-warni. Sesuai namanya, tiap sudut jalan dan rumah di Kampung Biru Arema didominasi warna biru yang identik dengan Arema. Perkampungan ini terlihat Instagramable. Bahkan banyak yang mengatakan mirip dengan Santorini di Yunani. Setiap sudut tempat memiliki warna biru. Keunikan lain dari Kampung Biru ini adalah di setiap sudut tembok terdapat gambar-gambar tiga dimensi. Bedanya, gambar yang disajikan merupakan para pemain legenda klub sepak bola Arema sehingga para penggemar klub bola bisa berfoto dengan tokoh yang diinginkan. Dengan warna biru yang seragam tersebut, kampung ini menjadi salah satu daya tarik untuk para petualang yang tengah plesiran di Kota Malang. Kampung ini berada di bantaran Kali Brantas, dan mempunyai deretan sudut-sudut yang fotogenik. Ada sekitar 500an rumah yang dicat biru, sehingga jika dipandang dari ketinggian sangat terlihat jelas kecantikan warna biru. Kampung Biru ini letaknya tidak jauh dari Kampung Warna-warna yaitu di sisi barat Jembatan Brantas yang masih terhubung dengan Kampung Warna-warni dan Kampung Tridi di sisi timur.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "kampung wisata"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624853678/blog/puca3gyjn1yd1azvd1vy.webp",
             "name": "Batu Night Spectacular",
             "desc": "Batu Night Spectacular adalah sebuah wahana wisata terbaru dari Kota Batu. Malam hari anda bisa menikmati suguhan wisata paling spektakuler di Jawa Timur di Batu Night Spectacular (BNS). Obyek wisata yang berlokasi di Desa Oro-oro Ombo ini menyajikan aneka wahana yang bisa dinikmati seluruh anggota keluarga anda. Ada puluhan wahana yang tidak akan bisa Anda lupakan setelah menikmatinya seperti galeri hantu, slalom tes, sepeda udara tertinggi, lampion garden, dan trampoline. Di obyek wisata ini anda juga bisa menguji adrenalin dengan mencoba beberapa wahana seperti drag race, mouse coaster, dan beberapa permainan lain. Banyak juga wahana yang khusus disediakan untuk anak-anak seperti kids zone yang terdiri dari 25 macam. Selain berbagai wahana menarik, keunikan BNS juga didukung letaknya yang sangat strategis di dataran tinggi. Dari obyek wisata mala mini anda bisa menikmati pemandangan alam Kota Malang dan sekitarnya dengan lebih sempurna.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "taman hiburan"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624853932/blog/ogapz4zwfa21qlnr2bkc.webp",
             "name": "Taman Labirin Coban Rondo",
             "desc": "Taman Labirin Coban Rondo merupakan salah satu wahana di mana wisata Coban Rondo berlokasi, yaitu di Jalan Coban Rondo No.RT. 30, Sebaluh, Pandesari, Kecamatan Pujon, Kabupaten Malang, Jawa Timur. Dulu kalau ke Coban Rondo, tempat wisata yang dituju paling air terjunnya. Tapi semenjak ada labirin, bisa dibilang labirin adalah tujuan utama wisatawan setelah air terjun Coban Rondo. Dengan tinggi 2 meter, dengan luas yang masih normal, setidaknya luas segitu membuat kita lebih mudah menemukan jalan keluar, obyek wisata ini laris diserbu pengunjung. Dan uniknya, setiap hari, labirin Coban Rondo akan diubah rute jalannya. Yang sudah pernah merasakan labirin Coban Rondo kemudian mencoba untuk kedua kali, jangan merasa sombong dulu karena Anda merasa sudah hapal rutenya. Meski luasnya kecil, tapi kesulitannya tetap pekat terasa. Yang menjadi primadona di labirin Coban Rondo bukan cuma rutenya. Tapi air mancur yang ada di tengah labirin, itu lah daya tariknya. Banyak yang berdiam lama di tempat itu, sejenak mengagumi keindahan atau mengambil gambar bersama orang lain.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "taman hiburan"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1604647242/blog/hri3pkgx8lm6zhywq4qk.webp",
             "name": "Museum Angkut",
             "desc": "Museum Angkut merupakan museum transportasi dan tempat wisata modern yang terletak di Kota Batu, Jawa Timur, sekitar 20 km dari Kota Malang. Museum ini terletak di kawasan seluas 3,8 hektar di lereng Gunung Panderman dan memiliki lebih dari 300 koleksi jenis angkutan tradisional hingga modern. Museum ini terbagi dalam beberapa zona yang didekorasi dengan setting landscape model bangunan dari benua Asia, Eropa hingga Amerika. Di Zona Sunda Kelapa dan Batavia yang merupakan Replika Pelabuhan Sunda Kelapa, dihiasi oleh beberapa alat transportasi kuno seperti becak dan miniatur kapal. Zona Eropa juga di setting seakan-akan berada di jalanan kota-kota di Prancis dengan mobil-mobil kuno Eropa. Selain mobil-mobil kuno, salah satu koleksi terbarunya adalah Mobil listrik Tucuxi milik mantan menteri Dahlan Iskan yang sebelumnya pernah mengalami kecelakaan di sebuah lereng gunung di Magetan saat baru diujicobakan. Di museum ini juga terdapat wahana Flight Simulator yang terletak di lantai 3 gedung museum.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "museum"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624854305/blog/rgvmoiq06zzk0waj8fip.webp",
             "name": "Lumbung Stroberi Batu",
             "desc": "Terlihat jelas dari namanya, Lumbung Stroberi Batu menyuguhkan wisata dengan stroberi sebagai maskotnya. Tempat wisata yang berlokasi di Dusun Pandan, Kecamatan Bumiaji, Kota Batu, Jawa Timur, ini bisa menambah pengalaman baru sambil berlibur. Saat memasuki Lumbung Strawberry, mata pengunjung akan dimanjakan dengan lukisan strawberry yang mendominasi hampir setiap sudut dinding pada obyek wisata ini. Hal tersebut pun menambah kesan ceria pada Lumbung Strawberry, karena segmentasi pasar dari agrowisata ini adalah keluarga dan anak-anak. Selain itu, Lumbung Strawberry juga memiliki banyak kebun strawberry, sehingga pengunjung tidak perlu takut kehabisan buah strawberry. Suhu yang tepat di Kota Wisata Batu membuat stroberi bisa tumbuh dengan baik. Selain buah stroberi yang menjadi ciri khas lumbung, Lumbung Stroberi menyajikan beberapa produk dan fasilitas yang meliputi Stroberi, Stroberi segar, Petik stroberi, Strawberry Education, dan cafe. Selain produk dan fasilitas yang ditawarkan, panorama atau pemandangan alam sekitar dan udara yang sejuk menjadi salah satu faktor yang menopang destinasi wisata ini karena terletak di antara Gunung Arjuno dan Gunung Panderman.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "kebun"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624854501/blog/wivm8t3jiagzmcbwydg2.webp",
             "name": "Omah Kayu",
             "desc": "Omah Kayu terletak di Jl. Gn. Banyak, Gunungsari, Kec. Bumiaji, Kota Batu sekitar 10 km dari pusat Kota Batu. Nama Omah Kayu berasal dari bahasa jawa, bahasa daerah warga malang yang terdengar sangat unik. Omah artinya rumah, kayu artinya adalah kayu. Omah kayu memang menyajikan sebuah panorama berbeda. Pemandangan yang terlihat dari lokasi Omah Kayu ini menjadi alasan utama wisatawan datang berkunjung. Sejak awal masuk kawasan Omah Kayu Anda akan disajikan dengan pemandangan pohon-pohon pinus yang berjajar dengan rapi. Sambil menuruni lereng Anda dapat melihat pemandangan kota batu yang sangat menawan. Sawah-sawah yang berada di lembah terlihat seperti potongan puzzle yang sangat menarik. Berada di ketinggian diatas 1000 meter diatas permukaan laut, membuat hawa dingin Omah Kayu begitu terasa. Suasana ini semakin sejuk berkat pepohonan rindang yang tumbuh di sekitar kawasan seperti pohon pinus dan cemara. Rumah kayu yang menjadi spot berfoto Omah Kayu ternyata juga bisa dimanfaatkan sebagai penginapan. Di dalam rumah pohon ini tersedia fasilitas lengkap untuk para pengunjung bisa menginap dengan nyaman.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "penginapan"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624855172/blog/naccek2vqm1idugsqmqg.webp",
             "name": "Taman Selecta",
             "desc": "Taman Rekreasi Selecta berada di Desa Tulungrejo, Kecamatan Bumiaji, Kota Wisata Batu. Tepatnya berjarak sekitar 25 kilometer dari pusat Kota Malang. Taman Selecta mempunyai luas kurang lebih 18 hektar. Dimana, wisatawan akan dihibur dengan banyak sekali wahana. Seperti kolam renang, bunga, waterboom, playground dan masih banyak hal lagi yang bisa ditemukan disini. Kabar menariknya, keindahan selecta ini ternyata sudah sampai ke mancanegara. Berada di 1100 mdpl membuat taman selecta seperti mempunyai daya magis. Saat menginjakkan kali pertama kali disini. Wisatawan akan merasakan ketenangan dan kesejukkan yang tidak biasa. Tempat ini memang paling tepat bagi wisatawan yang mungkin sudah lelah dengan berbagai macam problema kerja. Taman Wisata Selecta memang lebih cocok untuk wisata keluarga. Taman bunga merupakan salah satu obyek yang paling diandalkan pengelola Selecta selain obyek lain, seperti area outbound dan flying fox, goa singa, kolam renang, taman air, perahu bebek, kora-kora, dan area berkuda bagi anak-anak. Disini pula wisatawan bisa melihat cinema 4 dimensi yang seru dan menyenangkan. Cimena ini tergolong baru dengan sensasi berbeda dengan bioskop yang pernah wisatawan lihat. Film yang diputar akan terasa sangat nyata, sehingga siapkan jantung dan diri wisatawan saat menonton film di sini.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "taman hiburan"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624855473/blog/ykmden9i0hyqpfqbml6q.webp",
             "name": "The Onsen Hot Spring Resort",
             "desc": "The Onsen Hot Spring Resort terletak di Jl. Arumdalu No.98, Songgokerto, Kec. Batu, Kota Batu, Malang. The Onsen Hot Resort Malang merupakan tempat wisata berupa penginapan yang menyuguhkan pemandian air panas dengan mengusung tema ala kampung jepang. Saat mengunjungi Kampung Jepang di The Onsen Hot Spring Resort Malang, wisatawan dapat merasakan suasana perkampungan khas Jepang. Desain arsitektur bangunan di Wisata The Onsen Hot Resort Batu Malang ini sangat mirip dengan negara jepang aslinya. Selain itu wisatawan akan disuguhi pemandangan indah khas pegunungan. Bagaimana tidak, lokasinya yang berada di dataran tinggi juga memberikan hawa sejuk serasa berada di Lereng Gunung Fuji yang membuat wisatawan betah. Bahkan desain interior di Kamar The Onsen Hot Resort Batu Malang juga mengusung tema desain unik seperti ryokan di Jepang. Dengan lantai tatami (bantal duduk), kasur futon (kasur tipis seperti bedcover) dengan ruangan dari kayu yang khas akan merasakan sensasi menginap di Ryokan Jepang. Menginap di The Onsen Hot Resort Batu Malang tidak lengkap jika tidak menikmati kuliner ala jepang, semua hidangan di Resort Malang ini khas Jepang yang ditawarkan, seperti ramen, aneka sushi, sashimi, dan banyak lagi.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "penginapan"
         },
         {
             "img": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1624855947/blog/cppkda1xsxcally2z1h9.webp",
             "name": "San Terra de Lafonte",
             "desc": "San Terra de Lafonte adalah tujuan wisata Malang hits dan Instagramable yang terletak di kota Pujon Jawa timur. Lokasinya berada di ketinggian 1.200 mdpl, sehingga udara segar dapat dirasakan ditambah dengan pemandangan gunung. Tempat wisata ini sangat cocok untuk semua usia anak -anak, remaja, orang dewasa dan orang tua. Ada ratusan jenis tanaman bunga hias, juga melayani penjualan tanaman bunga hias dalam pot. Tempat wisata malang ini memiliki bangunan serba guna yang dapat digunakan untuk berkumpul, pertemuan, pernikahan, dan prawedding. Seperti namanya “Flora Wisata”, pengunjung pasti bisa menikmati taman bunga yang memiliki 150 jenis. Selain itu, ada tanaman di pot dan ada ruangan beratap yang indah, dan kawasan taman. San Terra Pujon Malang, khususnya untuk para aktivis dalam spot foto selfie, karena di sini dirancang untuk tempat foto. Oleh karena itu, semua sudut San Terra de Lafonte Malang bisa diposting di instagram. Tempat yang cocok bagi pengunjung yang suka fotografi. Salah satu daya tarik yang paling penting dari wisatawan di lokasi ini adalah bahwa tempat ini memiliki bangunan eksotis dalam gaya Belanda dan Korea. Replika dibuat hampir seperti ornamen asli dan berwarna-warni. Agar lebih mudah difoto di Instagram, pengunjung dapat menyewa kostum gaya Korea. Sehingga wisatawan bisa merasakan suasana gaya Korea saat mengambil foto selfie.",
-            "type": "wisata"
+            "type": "wisata",
+            "kategori": "taman hiburan"
+        },
+        {
+            "img": "https://www.asliindonesia.net/wp-content/uploads/2015/12/wisata-pantai-3-warna1-1.jpg",
+            "name": "Pantai Tiga Warna",
+            "desc": "Objek wisata ini termasuk pantai di Malang yang jarang dikunjungi dan belum terjamah. Berlokasi di Desa Sendang Biru, Kecamatan Sitiarjo, Malang Selatan terdapat kawasan Pantai Clungup, Gatra serta Pantai Tiga Warna yang sangat wajib dikunjungi. Pantai disebut Pantai Tiga Warna karena pantai memiliki gradasi yang terdiri dari tiga warna, yaitu biru, hijau, dan coklat kemerahan. Warna-warna itu berasal dari kedalaman permukaan pantai. Warna biru pada bagian terdalam, hijau pada bagian terdangkal, dan cokelat kemerahan pada pasir pantai. Walaupun berada di pantai selatan, ombak Pantai Tiga Warna cenderung tenang dan merupakan satu-satunya spot snorkeling di Malang. Pengunjung dapat menjelajahi Pantai Tiga Warna dan kawasan hutan mangrove ditemani dengan pemandu wisata. Di Pantai Tiga Warna, pengunjung dapat melihat ubur-ubur dengan jelas, bahkan bisa mengabadikan dengan kamera anti air. Perlu diingat, pengunjung harus hati-hati karena ubur-ubur bisa menyengat.",            "type": "wisata",
+            "kategori": "pantai"
+        },
+        {
+            "img": "https://piknikwisata.com/wp-content/uploads/2020/05/info-pantai-goa-cina.jpg",
+            "name": "Pantai Goa Cina",
+            "desc": "Pantai Goa Cina merupakan salah satu primadona baru wisata pantai yang sekarang cukup ramai didatangi oleh para pengunjung dari berbagai kota. Pantai ini terhitung masih sangat alami dengan warna air laut biru jernih dan bersih serta pasir putih yang lembut. Pantai ini terletak di Desa Sitiarjo, Kecamatan Sumbermanjing Wetan, Kabupaten Malang Selatan. Pantai Gua China memiliki kisah dan sejarah yang unik. Seperti namanya, di pantai ini terdapat sebuah gua yang menjadi daya tarik tersendiri. Sejarah nama Goa Cina sendiri berasal dari Goa yang terletak di bukit karang sebelah barat dari pintu masuk pantai. Konon jaman dahulu Goa ini digunakan oleh seorang pemuda Tionghoa bernama Hing Hook untuk bersemedi hingga akhir hayatnya. Panorama alam yang disajikan Pantai Goa Cina belum mengalami banyak perubahan. Terdapat tiga pulau yang berada ditengah pantai ini, yaitu Pulau Bantengan, Pulau Goa Cina dan Pulau Nyonya. Di pinggiran pantai ditanami berbagai jenis pohon seperti pohon cembirit, ketapang, dan pohon jenis tutup berjajar. Penanaman pohon ini bertujuan untuk mengurangi udara panas di sekitar pantai. Pada bibir pantai juga terlihat beberapa batu karang yang mengelilingi.",
+            "type": "wisata",
+            "kategori": "pantai"
+        },
+        {
+            "img":  "https://cdn.idntimes.com/content-images/community/2018/10/43816502-263546184303025-772902780768678439-n-15f93fedcbd7442930ac7a09e5cc297d_600x400.jpg",
+            "name": "Pantai Balekambang",
+            "desc": "Pantai Balekambang berlokasi di Kecamatan Bantur, dengan jarak 65km arah ke Selatan dari Kota Kabupaten Malang dan berada di laut Selatan. Dipenuhi banyak karang laut yang membentang sepanjang kurang lebih 2000m dengan lebar 200m ke arah laut. Memiliki 3 pulau yang unik berjajar ke arah Barat dan cukup terkenal yaitu Pulau Ismoyo, Pulau Anoman dan Pulau Wisanggeni. Pantai ini dijuluki Tanah Lot-nya Jawa karena mirip dengan objek wisata di Bali yang bernama Tanah Lot. Pantai Balekambang cukup menawan dan layak dikunjungi sebagai tempat liburan akhir pekan di Malang. Suasananya sangat asri, pantainya juga bersih dan terawat. Pasir putih sepanjang dua kilometer berpadu dengan ombak yang menggulung sungguh memanjakan mata pengunjung. Pantai Balekambang memiliki semua fasilitas yang diperlukan wisatawan, mulai dari warung makan tradisional, restoran, penjaga pantai, toko suvenir, toilet umum, tempat parkir yang luas, camping ground, kantor informasi, bungalow sederhana, mushola dan pendopo, hingga penginapan. Bahkan kini ada wahana flying fox.",
+            "type": "wisata",
+            "kategori": "pantai"
+        },
+        {
+            "img": "https://www.pantainesia.com/wp-content/uploads/2020/04/Pantai-Sipelot-Malang-990x558.jpg",
+            "name": "Pantai Sipelot",
+            "desc": "Bagi penikmat wisata alam, pantai merupakan salah satu destinasi yang wajib untuk dikunjungi. Tidak terkecuali Pantai Sipelot, Malang yang menyimpan keindahan di antara bukit kapurnya. Pantai Sipelot berada di Desa Pujiharjo, Malang, Jawa Timur dan termasuk pantai di Malang yang belum terjamah. Pantai ini masih sangat tak terjamah, karena belum banyaknya pengunjung yang datang. Akan tetapi, pantai ini sudah menyediakan fasilitas yang cukup lengkap, seperti lapangan parkir dan toilet. Pemandangan yang ditawarkan tempat wisata ini sangat eksotis. Hamparan laut biru di sepanjang mata memandang mampu membuat seseorang merasa betah untuk brelama-lama di sana. Meskipun Pantai Sipelot menawarkan keindahan laut yang menarik, namun kamu hanya bisa menikmatinya dari bibir pantai. Hal ini karena ombak di sana terbilang cukup besar dan membahayakan. Namun kamu tidak perlu mengurungkan niat untuk berlibur ke Pantai Sipelot. Kamu masih bisa melakukan berbagai kegiatan wisata yang tidak kalah menariknya dari berenang di tengah laut. Pantai Sipelot merupakan salah satu dari sejumlah pantai di Indonesia yang menawarkan dua pilihan wisata air dalam satu kawasan. Hal ini karena pantai tersebut juga memiliki air terjun setinggi lebih kurang 10 meter yang terletak di bagian barat pantai. Saat berkunjung ke sana, kamu bisa lihat air terjun bernama Coban Sipelot sambil berjalan-jalan di bibir pantai.",
+            "type": "wisata",
+            "kategori": "pantai"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/284135278.jpg?k=f73fefd17033820f2f04696167a9ef3744ec245f085b575e495954f7840268f4&o=&hp=1",
             "name": "Omah Lumut",
-            "desc": "",
-            "type": "villa"
+            "desc": "Terletak di Malang, 6,3 km dari Jatim Park 3, OMAH LUMUT Malang, Best Family Villa 3 Bedrooms Free Pool Kolam Renang menawarkan akomodasi dengan kolam renang outdoor, Wi-Fi gratis, dapur bersama, dan lounge bersama. Terletak 7,5 km dari Taman Rekreasi Tlogomas, akomodasi ini memiliki taman dan parkir pribadi gratis. Vila ini memiliki 3 kamar tidur, 2 kamar mandi, seprai, handuk, TV layar datar, ruang makan, dapur lengkap, dan teras dengan pemandangan taman. Villa ini menawarkan sarapan à la carte atau Asia. OMAH LUMUT Malang, Best Family Villa 3 Bedrooms Free Pool Kolam Renang menyediakan taman bermain anak-anak. Museum Mpu Purwa berjarak 8,9 km dari akomodasi, sedangkan Batu Night Spectacular berjarak 9,2 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 19 km dari OMAH LUMUT Malang, Best Family Villa 3 Bedrooms Free Pool Kolam Renang.",
+            "type": "villa",
+            "rating" : 4.9
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/218604170.jpg?k=8d4b64a88da3aefc749f3fd3d60bd8433ebd788e427c4212cf73d46cad5e3567&o=&hp=1",
             "name": "Nusin 54 Homestay",
-            "desc": "",
-            "type": "villa"
+            "desc": "Nusin 54 Homestay terletak di Malang, 1,8 km dari Taman Krida Budaya Jawa Timur, 1,8 km dari MX Mall Malang, dan 2 km dari Malang Town Square. Akomodasi ini berjarak 3,1 km dari Perpustakaan Malang dan 3,5 km dari Pulosari Food Court. Museum Mpu Purwa berjarak 2,3 km dari rumah liburan, sedangkan Universitas Brawijaya Malang berjarak 2,8 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 17 km dari Nusin 54 Homestay.",
+            "type": "villa",
+            "rating" : 4.3
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/301323495.jpg?k=72153c5b8d8309f45ef1a8229bbd5592f6183b3a79c64777fcaafa79e58cf1ea&o=&hp=1",
             "name": "The Awan's Home",
-            "desc": "",
-            "type": "villa"
+            "desc": "The Awan's Home adalah akomodasi yang terletak di Malang, menawarkan Wi-Fi gratis dan pemandangan pegunungan. Akomodasi ini berjarak 1,8 km dari Taman Krida Budaya Jawa Timur, serta menyediakan taman dan tempat parkir pribadi gratis. Rumah liburan ini dilengkapi dengan 3 kamar tidur, 2 kamar mandi, seprai, handuk, TV layar datar, ruang makan, dapur lengkap, dan teras dengan pemandangan taman. Layanan penyewaan mobil tersedia di rumah liburan ini. Museum Mpu Purwa berjarak 2,1 km dari The Awan's Home, sedangkan Universitas Brawijaya Malang berjarak 4,1 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 16 km dari akomodasi.",
+            "type": "villa",
+            "rating" : 4.9
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/290627900.jpg?k=087b1ac66806566c820072a9c756b1c6422d14dbada1eb411b0ae68775e8228c&o=&hp=1",
             "name": "Sierra Villa Malang",
-            "desc": "",
-            "type": "villa"
+            "desc": "Sierra Villaini berlokasi di Perumahan springhill garden, Jl. Seruni No.21, Keduyo, Mangliawan, Kec. Pakis, Kabupaten Malang.  Sierra Villa Malang menawarkan kolam renang luar ruangan musiman, lounge bersama, dan akomodasi ber-AC dengan balkon dan Wi-Fi gratis, 3,5 km dari Velodrome Malang. Setiap unit memiliki dapur dengan mesin pencuci piring dan microwave, juga dilengkapi dengan brankas, TV satelit layar datar, fasilitas menyetrika, meja, dan area tempat duduk dengan sofa. Semua unit memiliki kamar mandi pribadi dengan shower, sandal, dan perlengkapan mandi gratis. Rumah liburan ini juga menawarkan teras. Taman dan taman bermain anak-anak ditawarkan di Sierra Villa Malang. Alun-alun Tugu berjarak 5,4 km dari akomodasi, sedangkan Taman Rekreasi Kota berjarak 5,6 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 9 km dari Sierra Villa Malang, dan akomodasi ini menawarkan layanan antar-jemput bandara berbayar.",
+            "type": "villa",
+            "rating" : 4.6
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/379849366.jpg?k=3e7f3a98671787b07bca815cfe7d1dcb03765f6b3d0d05a9eb5c7878f74b2dc3&o=&hp=1",
             "name": "Elbanna Home 5BR",
-            "desc": "",
-            "type": "villa"
+            "desc": "ElBanna Home 5BR menawarkan akomodasi di Malang, 3,6 km dari Taman Rekreasi Tlogomas, dengan akses ke bar, lounge bersama, serta resepsionis 24 jam. Vila ini menawarkan parkir pribadi gratis dan dapur bersama. Vila ini memiliki 5 kamar tidur, 2 kamar mandi, seprai, handuk, TV kabel layar datar, dapur lengkap, dan balkon dengan pemandangan taman. Taman, fasilitas barbekyu, dan teras berjemur ditawarkan di vila. ElBanna Home 5BR berjarak 4,4 km dari Museum Zoologi Frater Vianney dan 5 km dari Lembah Dieng Water Park. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 16 km dari akomodasi.",
+            "type": "villa",
+            "rating" : 4.5
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/355986138.jpg?k=736851d3e2df59cffa45e335eea8151ba8d399c5af3c8ecec9b868c5e7c74067&o=&hp=1",
             "name": "Ardmore A10 Homestay",
-            "desc": "",
-            "type": "villa"
+            "desc": "Terletak di Malang, 2 km dari Taman Rekreasi Tlogomas dan 3,2 km dari Museum Mpu Purwa, ARDMORE A10 HOMESTAY MALANG menawarkan lounge bersama dan AC. Rumah liburan ini menawarkan parkir pribadi gratis dan dapur bersama. Rumah liburan ini memiliki 3 kamar tidur, 2 kamar mandi, seprai, handuk, TV layar datar, dapur lengkap, dan balkon dengan pemandangan pegunungan. Rumah liburan ini juga menawarkan teras. Layanan penyewaan mobil tersedia di ARDMORE A10 HOMESTAY MALANG. Taman Krida Budaya Jawa Timur berjarak 3,4 km dari akomodasi, sedangkan Universitas Brawijaya Malang berjarak 4,3 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 11 km dari ARDMORE A10 HOMESTAY MALANG, dan akomodasi ini menawarkan layanan antar-jemput bandara berbayar.",
+            "type": "villa",
+            "rating" : 5.0
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/323248608.jpg?k=4355ed67590b469ecc456aa80b095fd73349291ef967cb1c49abc133f0c9f271&o=&hp=1",
             "name": "Tomohon Private Pool Villa",
-            "desc": "",
-            "type": "villa"
+            "desc": "Villa berlokasi di Jalan Ampel Pratama VI no 3 Perumahan Pesanggrahan Pratama, Karangploso, Girimoyo, Kec. Karang Ploso, Kabupaten Malang. Tomohon Private Pool Villa Batu menyediakan akomodasi dengan kolam renang outdoor, bar, dan lounge bersama, serta berjarak sekitar 3,6 km dari Taman Rekreasi Tlogomas. Vila ini memiliki kolam renang pribadi, taman, dan parkir pribadi gratis. Vila ini dilengkapi dengan 4 kamar tidur, dapur dengan kulkas dan minibar, TV layar datar, area tempat duduk, dan 3 kamar mandi dengan shower. Handuk dan seprai juga disediakan. Fasilitas barbekyu dan teras tersedia untuk Anda gunakan di vila. Museum Mpu Purwa berjarak 5 km dari Tomohon Private Pool Villa Batu, sedangkan Taman Krida Budaya Jawa Timur berjarak 6 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 14 km dari akomodasi.",
+            "type": "villa",
+            "rating" : 4.9
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/318535276.jpg?k=94ebfd56d580604ca3e0d727837e691459989993330d58b84e1cd2175f460fbc&o=&hp=1",
             "name": "Villa Keluarga Pandansari",
-            "desc": "",
-            "type": "villa"
+            "desc": "Villa keluarga Pandansari menawarkan akomodasi dengan restoran, lounge bersama, taman, Wi-Fi gratis, dan pemandangan taman di Malang. Vila ini menyediakan parkir pribadi gratis dan dapur bersama. Vila ini dilengkapi dengan 5 kamar tidur, dapur dengan kulkas, TV layar datar, area tempat duduk, dan 4 kamar mandi dengan bidet. Untuk menambah kenyamanan, akomodasi ini dapat menyediakan handuk dan seprai dengan biaya tambahan. Pilihan sarapan Asia dan halal tersedia setiap pagi di vila. Villa keluarga Pandansari menawarkan taman bermain anak-anak. Anda dapat menikmati kolam renang dalam ruangan di akomodasi. Villa keluarga Pandansari berjarak 5,4 km dari Air Terjun Coban Rondo dan 5,7 km dari Taman Wisata Tirta Nirwana Songgoriti. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 34 km dari villa.",
+            "type": "villa",
+            "rating" : 4.7
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/295637053.jpg?k=0f78186a8675d2bbdcba533438c91658e5561fd35ee6cded512a75d08bebc4f3&o=&hp=1",
             "name": "Villa Kebun Jeruk Syariah",
-            "desc": "",
-            "type": "villa"
+            "desc": "Terletak di Malang, 3,4 km dari Taman Rekreasi Tlogomas dan 4,8 km dari Jatim Park 3, Villa Kebun Jeruk Syariah Malang by ecommerceloka menawarkan akomodasi dengan Wi-Fi gratis dan taman dengan teras. Beberapa unit ber-AC dan memiliki area tempat duduk dan/atau ruang makan serta TV layar datar. Jika Anda ingin menjelajahi daerah tersebut, memancing dapat dilakukan di sekitarnya. Museum Mpu Purwa berjarak 6,7 km dari vila, sedangkan Universitas Brawijaya Malang berjarak 6,9 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 18 km dari Villa Kebun Jeruk Syariah Malang oleh ecommerceloka.",
+            "type": "villa",
+            "rating" : 4.8
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/274184341.jpg?k=fa8c2d5eb9aeca2fdd02e2ff8e6b0c7495298addcad027605573baedec465926&o=&hp=1",
             "name": "Villa Marry Ind Gunung Kawi",
-            "desc": "",
-            "type": "villa"
+            "desc": "Villa ini berlokasi di Jl. Raya Bumirejo, Bumireja, Kebobang, Kec. Wonosari, Kabupaten Malang. Villa Marry Ind Gunung Kawi Malang menawarkan akomodasi dengan kolam renang luar ruangan, pusat kebugaran, lounge bersama, Wi-Fi gratis, dan pemandangan taman di Malang. Vila ini memiliki kolam renang pribadi dan taman. Vila ini memiliki 7 kamar tidur, 7 kamar mandi, TV satelit layar datar, ruang makan, dapur lengkap, dan balkon dengan pemandangan kolam renang. Vila ini memiliki teras. Layanan penyewaan mobil tersedia di Villa Marry Ind Gunung Kawi Malang. Taman Wisata Lembah Dieng dan Museum Zoologi Frater Vianney berjarak 15 km dari akomodasi. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 27 km dari Villa Marry Ind Gunung Kawi Malang.",
+            "type": "villa",
+            "rating" : 4.5
         }
     ]
 }
