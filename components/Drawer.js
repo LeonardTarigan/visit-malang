@@ -3,10 +3,17 @@ import { GlobalContext } from '../context/GlobalContext';
 import { Link as Scroll } from 'react-scroll';
 import NavProfile from './NavProfile';
 import Link from 'next/link';
+import Cookies from 'js-cookie';
 
 function Drawer() {
     const { state } = useContext(GlobalContext);
-    const { openSideMenu, loggedIn } = state;
+    const { openSideMenu, loggedIn, setLoggedIn } = state;
+
+    const handleLogout = () => {
+        Cookies.remove('user_token');
+        setLoggedIn(false);
+        window.location = '/';
+    };
 
     return (
         <div
@@ -37,24 +44,24 @@ function Drawer() {
                             offset={-110}
                             duration={1000}
                         >
-                            Sejarah
+                            Tentang
                         </Scroll>
                     </li>
                     <li className='cursor-pointer transition-all duration-200 hover:text-pink-500 hover:underline'>
-                        <Scroll
-                            to='wisata'
+                        <Link
+                            href={'/recommendation'}
                             smooth={true}
                             offset={-110}
                             duration={1000}
                         >
                             Wisata
-                        </Scroll>
+                        </Link>
                     </li>
                 </ul>
             </div>
 
             <div className='flex w-full justify-end gap-10'>
-                <div>
+                <button>
                     <svg
                         className='h-6 w-6'
                         fill='none'
@@ -69,9 +76,9 @@ function Drawer() {
                             d='M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9'
                         />
                     </svg>
-                </div>
+                </button>
 
-                <div>
+                <button>
                     <svg
                         className='h-6 w-6'
                         fill='currentColor'
@@ -84,9 +91,9 @@ function Drawer() {
                             clipRule='evenodd'
                         />
                     </svg>
-                </div>
+                </button>
 
-                <div>
+                <button onClick={handleLogout}>
                     <svg
                         className='h-6 w-6'
                         fill='none'
@@ -101,7 +108,7 @@ function Drawer() {
                             d='M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1'
                         />
                     </svg>
-                </div>
+                </button>
             </div>
         </div>
     );

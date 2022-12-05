@@ -56,7 +56,7 @@ function NavInput() {
                 <input
                     type='text'
                     id='search'
-                    className='block h-10 w-full rounded-lg bg-black bg-opacity-30 p-4 pl-10 text-sm text-white focus:outline-none'
+                    className='block h-10 w-full rounded-full bg-black bg-opacity-30 p-4 pl-10 text-sm text-white focus:outline-none'
                     placeholder='Gunung Bromo'
                     required
                     autoComplete='off'

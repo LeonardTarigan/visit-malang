@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react';
 import Image from 'next/legacy/image';
 import Link from 'next/link';
 import wisata from '../data/wisata.json';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Recommendation() {
     const [currentCategory, setCurrentCategory] = useState('');
@@ -19,6 +21,8 @@ function Recommendation() {
     ];
 
     useEffect(() => {
+        AOS.init();
+
         if (currentCategory === '') {
             setList(wisata.data);
         } else {
@@ -43,7 +47,11 @@ function Recommendation() {
 
             <Layout>
                 <main className='flex h-fit flex-col gap-10 px-5 md:px-20'>
-                    <h1 className='text-2xl font-semibold md:text-3xl'>
+                    <h1
+                        data-aos='fade-right'
+                        data-aos-duration='1000'
+                        className='text-2xl font-semibold md:text-3xl'
+                    >
                         Rekomendasi Destinasi & Penginapan
                     </h1>
                     <div className='flex flex-wrap gap-5 text-sm'>
@@ -64,7 +72,11 @@ function Recommendation() {
                                         setCurrentCategory(data);
                                     }}
                                     key={index}
-                                    className={`cursor-pointer select-none rounded-full border border-transparent px-5  py-2 transition-all duration-200 hover:border-white ${
+                                    data-aos='fade-in'
+                                    data-aos-duration='700'
+                                    data-aos-delay={index * 100}
+                                    data-aos-anchor='.category'
+                                    className={`category cursor-pointer select-none rounded-full border border-transparent px-5  py-2 transition-all duration-200 hover:border-white ${
                                         currentCategory.toLocaleLowerCase() ===
                                         data.toLocaleLowerCase()
                                             ? 'bg-white text-black'
@@ -83,6 +95,7 @@ function Recommendation() {
                                 return (
                                     <li
                                         key={index}
+                                        priority
                                         data-aos='fade-in'
                                         data-aos-duration='700'
                                         data-aos-delay={index * 100}
