@@ -87,16 +87,7 @@ function Detail() {
                                     data-aos-anchor='.pic'
                                     data-aos-once='true'
                                 >
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Autem expedita ea, quis
-                                    distinctio fugiat error architecto in iure
-                                    aut reprehenderit voluptatem ipsum ut quasi
-                                    officia aperiam quisquam qui. Numquam saepe,
-                                    laboriosam provident consequatur culpa
-                                    similique architecto sunt molestiae
-                                    quibusdam! Excepturi incidunt accusamus
-                                    nostrum repellat recusandae? Consectetur
-                                    laudantium quibusdam minima nesciunt?
+                                    {data.desc}
                                 </p>
                             </div>
 

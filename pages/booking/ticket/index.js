@@ -1,11 +1,11 @@
-import Layout from '../../widgets/layout';
-import wisata from '../../data/wisata.json';
+import Layout from '../../../widgets/layout';
+import wisata from '../../../data/wisata.json';
 import { useRouter } from 'next/router';
 import { useContext, useEffect, useState } from 'react';
 import Image from 'next/legacy/image';
 import Link from 'next/link';
 import Head from 'next/head';
-import { GlobalContext } from '../../context/GlobalContext';
+import { GlobalContext } from '../../../context/GlobalContext';
 
 function Ticket() {
     const router = useRouter();
@@ -19,7 +19,7 @@ function Ticket() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        router.push('/payment');
+        router.push('/booking/ticket/payment');
     };
 
     const handleChange = (e) => {
@@ -156,13 +156,17 @@ function Ticket() {
                                                         {data.name}
                                                     </h1>
                                                     <p className='text-xs md:text-sm'>
-                                                        Lorem ipsum dolor sit,
-                                                        amet consectetur
-                                                        adipisicing elit. Ad
-                                                        quisquam esse id
-                                                        corrupti explicabo
-                                                        soluta sed aut vitae,
-                                                        dicta facilis.
+                                                        {data.desc.substring(
+                                                            0,
+                                                            data.desc
+                                                                .substring(
+                                                                    0,
+                                                                    120
+                                                                )
+                                                                .lastIndexOf(
+                                                                    ' '
+                                                                )
+                                                        ) + ' ...'}
                                                     </p>
                                                 </div>
                                             </li>

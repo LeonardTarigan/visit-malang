@@ -108,7 +108,8 @@
         {
             "img": "https://www.asliindonesia.net/wp-content/uploads/2015/12/wisata-pantai-3-warna1-1.jpg",
             "name": "Pantai Tiga Warna",
-            "desc": "Objek wisata ini termasuk pantai di Malang yang jarang dikunjungi dan belum terjamah. Berlokasi di Desa Sendang Biru, Kecamatan Sitiarjo, Malang Selatan terdapat kawasan Pantai Clungup, Gatra serta Pantai Tiga Warna yang sangat wajib dikunjungi. Pantai disebut Pantai Tiga Warna karena pantai memiliki gradasi yang terdiri dari tiga warna, yaitu biru, hijau, dan coklat kemerahan. Warna-warna itu berasal dari kedalaman permukaan pantai. Warna biru pada bagian terdalam, hijau pada bagian terdangkal, dan cokelat kemerahan pada pasir pantai. Walaupun berada di pantai selatan, ombak Pantai Tiga Warna cenderung tenang dan merupakan satu-satunya spot snorkeling di Malang. Pengunjung dapat menjelajahi Pantai Tiga Warna dan kawasan hutan mangrove ditemani dengan pemandu wisata. Di Pantai Tiga Warna, pengunjung dapat melihat ubur-ubur dengan jelas, bahkan bisa mengabadikan dengan kamera anti air. Perlu diingat, pengunjung harus hati-hati karena ubur-ubur bisa menyengat.",            "type": "wisata",
+            "desc": "Objek wisata ini termasuk pantai di Malang yang jarang dikunjungi dan belum terjamah. Berlokasi di Desa Sendang Biru, Kecamatan Sitiarjo, Malang Selatan terdapat kawasan Pantai Clungup, Gatra serta Pantai Tiga Warna yang sangat wajib dikunjungi. Pantai disebut Pantai Tiga Warna karena pantai memiliki gradasi yang terdiri dari tiga warna, yaitu biru, hijau, dan coklat kemerahan. Warna-warna itu berasal dari kedalaman permukaan pantai. Warna biru pada bagian terdalam, hijau pada bagian terdangkal, dan cokelat kemerahan pada pasir pantai. Walaupun berada di pantai selatan, ombak Pantai Tiga Warna cenderung tenang dan merupakan satu-satunya spot snorkeling di Malang. Pengunjung dapat menjelajahi Pantai Tiga Warna dan kawasan hutan mangrove ditemani dengan pemandu wisata. Di Pantai Tiga Warna, pengunjung dapat melihat ubur-ubur dengan jelas, bahkan bisa mengabadikan dengan kamera anti air. Perlu diingat, pengunjung harus hati-hati karena ubur-ubur bisa menyengat.",
+            "type": "wisata",
             "kategori": "pantai"
         },
         {
@@ -119,7 +120,7 @@
             "kategori": "pantai"
         },
         {
-            "img":  "https://cdn.idntimes.com/content-images/community/2018/10/43816502-263546184303025-772902780768678439-n-15f93fedcbd7442930ac7a09e5cc297d_600x400.jpg",
+            "img": "https://cdn.idntimes.com/content-images/community/2018/10/43816502-263546184303025-772902780768678439-n-15f93fedcbd7442930ac7a09e5cc297d_600x400.jpg",
             "name": "Pantai Balekambang",
             "desc": "Pantai Balekambang berlokasi di Kecamatan Bantur, dengan jarak 65km arah ke Selatan dari Kota Kabupaten Malang dan berada di laut Selatan. Dipenuhi banyak karang laut yang membentang sepanjang kurang lebih 2000m dengan lebar 200m ke arah laut. Memiliki 3 pulau yang unik berjajar ke arah Barat dan cukup terkenal yaitu Pulau Ismoyo, Pulau Anoman dan Pulau Wisanggeni. Pantai ini dijuluki Tanah Lot-nya Jawa karena mirip dengan objek wisata di Bali yang bernama Tanah Lot. Pantai Balekambang cukup menawan dan layak dikunjungi sebagai tempat liburan akhir pekan di Malang. Suasananya sangat asri, pantainya juga bersih dan terawat. Pasir putih sepanjang dua kilometer berpadu dengan ombak yang menggulung sungguh memanjakan mata pengunjung. Pantai Balekambang memiliki semua fasilitas yang diperlukan wisatawan, mulai dari warung makan tradisional, restoran, penjaga pantai, toko suvenir, toilet umum, tempat parkir yang luas, camping ground, kantor informasi, bungalow sederhana, mushola dan pendopo, hingga penginapan. Bahkan kini ada wahana flying fox.",
             "type": "wisata",
@@ -137,70 +138,80 @@
             "name": "Omah Lumut",
             "desc": "Terletak di Malang, 6,3 km dari Jatim Park 3, OMAH LUMUT Malang, Best Family Villa 3 Bedrooms Free Pool Kolam Renang menawarkan akomodasi dengan kolam renang outdoor, Wi-Fi gratis, dapur bersama, dan lounge bersama. Terletak 7,5 km dari Taman Rekreasi Tlogomas, akomodasi ini memiliki taman dan parkir pribadi gratis. Vila ini memiliki 3 kamar tidur, 2 kamar mandi, seprai, handuk, TV layar datar, ruang makan, dapur lengkap, dan teras dengan pemandangan taman. Villa ini menawarkan sarapan à la carte atau Asia. OMAH LUMUT Malang, Best Family Villa 3 Bedrooms Free Pool Kolam Renang menyediakan taman bermain anak-anak. Museum Mpu Purwa berjarak 8,9 km dari akomodasi, sedangkan Batu Night Spectacular berjarak 9,2 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 19 km dari OMAH LUMUT Malang, Best Family Villa 3 Bedrooms Free Pool Kolam Renang.",
             "type": "villa",
-            "rating" : 4.9
+            "rating": 4.9,
+            "kategori": "penginapan"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/218604170.jpg?k=8d4b64a88da3aefc749f3fd3d60bd8433ebd788e427c4212cf73d46cad5e3567&o=&hp=1",
             "name": "Nusin 54 Homestay",
             "desc": "Nusin 54 Homestay terletak di Malang, 1,8 km dari Taman Krida Budaya Jawa Timur, 1,8 km dari MX Mall Malang, dan 2 km dari Malang Town Square. Akomodasi ini berjarak 3,1 km dari Perpustakaan Malang dan 3,5 km dari Pulosari Food Court. Museum Mpu Purwa berjarak 2,3 km dari rumah liburan, sedangkan Universitas Brawijaya Malang berjarak 2,8 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 17 km dari Nusin 54 Homestay.",
             "type": "villa",
-            "rating" : 4.3
+            "rating": 4.3,
+            "kategori": "penginapan"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/301323495.jpg?k=72153c5b8d8309f45ef1a8229bbd5592f6183b3a79c64777fcaafa79e58cf1ea&o=&hp=1",
             "name": "The Awan's Home",
             "desc": "The Awan's Home adalah akomodasi yang terletak di Malang, menawarkan Wi-Fi gratis dan pemandangan pegunungan. Akomodasi ini berjarak 1,8 km dari Taman Krida Budaya Jawa Timur, serta menyediakan taman dan tempat parkir pribadi gratis. Rumah liburan ini dilengkapi dengan 3 kamar tidur, 2 kamar mandi, seprai, handuk, TV layar datar, ruang makan, dapur lengkap, dan teras dengan pemandangan taman. Layanan penyewaan mobil tersedia di rumah liburan ini. Museum Mpu Purwa berjarak 2,1 km dari The Awan's Home, sedangkan Universitas Brawijaya Malang berjarak 4,1 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 16 km dari akomodasi.",
             "type": "villa",
-            "rating" : 4.9
+            "rating": 4.9,
+            "kategori": "penginapan"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/290627900.jpg?k=087b1ac66806566c820072a9c756b1c6422d14dbada1eb411b0ae68775e8228c&o=&hp=1",
             "name": "Sierra Villa Malang",
             "desc": "Sierra Villaini berlokasi di Perumahan springhill garden, Jl. Seruni No.21, Keduyo, Mangliawan, Kec. Pakis, Kabupaten Malang.  Sierra Villa Malang menawarkan kolam renang luar ruangan musiman, lounge bersama, dan akomodasi ber-AC dengan balkon dan Wi-Fi gratis, 3,5 km dari Velodrome Malang. Setiap unit memiliki dapur dengan mesin pencuci piring dan microwave, juga dilengkapi dengan brankas, TV satelit layar datar, fasilitas menyetrika, meja, dan area tempat duduk dengan sofa. Semua unit memiliki kamar mandi pribadi dengan shower, sandal, dan perlengkapan mandi gratis. Rumah liburan ini juga menawarkan teras. Taman dan taman bermain anak-anak ditawarkan di Sierra Villa Malang. Alun-alun Tugu berjarak 5,4 km dari akomodasi, sedangkan Taman Rekreasi Kota berjarak 5,6 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 9 km dari Sierra Villa Malang, dan akomodasi ini menawarkan layanan antar-jemput bandara berbayar.",
             "type": "villa",
-            "rating" : 4.6
+            "rating": 4.6,
+            "kategori": "penginapan"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/379849366.jpg?k=3e7f3a98671787b07bca815cfe7d1dcb03765f6b3d0d05a9eb5c7878f74b2dc3&o=&hp=1",
             "name": "Elbanna Home 5BR",
             "desc": "ElBanna Home 5BR menawarkan akomodasi di Malang, 3,6 km dari Taman Rekreasi Tlogomas, dengan akses ke bar, lounge bersama, serta resepsionis 24 jam. Vila ini menawarkan parkir pribadi gratis dan dapur bersama. Vila ini memiliki 5 kamar tidur, 2 kamar mandi, seprai, handuk, TV kabel layar datar, dapur lengkap, dan balkon dengan pemandangan taman. Taman, fasilitas barbekyu, dan teras berjemur ditawarkan di vila. ElBanna Home 5BR berjarak 4,4 km dari Museum Zoologi Frater Vianney dan 5 km dari Lembah Dieng Water Park. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 16 km dari akomodasi.",
             "type": "villa",
-            "rating" : 4.5
+            "rating": 4.5,
+            "kategori": "penginapan"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/355986138.jpg?k=736851d3e2df59cffa45e335eea8151ba8d399c5af3c8ecec9b868c5e7c74067&o=&hp=1",
             "name": "Ardmore A10 Homestay",
             "desc": "Terletak di Malang, 2 km dari Taman Rekreasi Tlogomas dan 3,2 km dari Museum Mpu Purwa, ARDMORE A10 HOMESTAY MALANG menawarkan lounge bersama dan AC. Rumah liburan ini menawarkan parkir pribadi gratis dan dapur bersama. Rumah liburan ini memiliki 3 kamar tidur, 2 kamar mandi, seprai, handuk, TV layar datar, dapur lengkap, dan balkon dengan pemandangan pegunungan. Rumah liburan ini juga menawarkan teras. Layanan penyewaan mobil tersedia di ARDMORE A10 HOMESTAY MALANG. Taman Krida Budaya Jawa Timur berjarak 3,4 km dari akomodasi, sedangkan Universitas Brawijaya Malang berjarak 4,3 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 11 km dari ARDMORE A10 HOMESTAY MALANG, dan akomodasi ini menawarkan layanan antar-jemput bandara berbayar.",
             "type": "villa",
-            "rating" : 5.0
+            "rating": 5.0,
+            "kategori": "penginapan"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/323248608.jpg?k=4355ed67590b469ecc456aa80b095fd73349291ef967cb1c49abc133f0c9f271&o=&hp=1",
             "name": "Tomohon Private Pool Villa",
             "desc": "Villa berlokasi di Jalan Ampel Pratama VI no 3 Perumahan Pesanggrahan Pratama, Karangploso, Girimoyo, Kec. Karang Ploso, Kabupaten Malang. Tomohon Private Pool Villa Batu menyediakan akomodasi dengan kolam renang outdoor, bar, dan lounge bersama, serta berjarak sekitar 3,6 km dari Taman Rekreasi Tlogomas. Vila ini memiliki kolam renang pribadi, taman, dan parkir pribadi gratis. Vila ini dilengkapi dengan 4 kamar tidur, dapur dengan kulkas dan minibar, TV layar datar, area tempat duduk, dan 3 kamar mandi dengan shower. Handuk dan seprai juga disediakan. Fasilitas barbekyu dan teras tersedia untuk Anda gunakan di vila. Museum Mpu Purwa berjarak 5 km dari Tomohon Private Pool Villa Batu, sedangkan Taman Krida Budaya Jawa Timur berjarak 6 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 14 km dari akomodasi.",
             "type": "villa",
-            "rating" : 4.9
+            "rating": 4.9,
+            "kategori": "penginapan"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/318535276.jpg?k=94ebfd56d580604ca3e0d727837e691459989993330d58b84e1cd2175f460fbc&o=&hp=1",
             "name": "Villa Keluarga Pandansari",
             "desc": "Villa keluarga Pandansari menawarkan akomodasi dengan restoran, lounge bersama, taman, Wi-Fi gratis, dan pemandangan taman di Malang. Vila ini menyediakan parkir pribadi gratis dan dapur bersama. Vila ini dilengkapi dengan 5 kamar tidur, dapur dengan kulkas, TV layar datar, area tempat duduk, dan 4 kamar mandi dengan bidet. Untuk menambah kenyamanan, akomodasi ini dapat menyediakan handuk dan seprai dengan biaya tambahan. Pilihan sarapan Asia dan halal tersedia setiap pagi di vila. Villa keluarga Pandansari menawarkan taman bermain anak-anak. Anda dapat menikmati kolam renang dalam ruangan di akomodasi. Villa keluarga Pandansari berjarak 5,4 km dari Air Terjun Coban Rondo dan 5,7 km dari Taman Wisata Tirta Nirwana Songgoriti. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 34 km dari villa.",
             "type": "villa",
-            "rating" : 4.7
+            "rating": 4.7,
+            "kategori": "penginapan"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/295637053.jpg?k=0f78186a8675d2bbdcba533438c91658e5561fd35ee6cded512a75d08bebc4f3&o=&hp=1",
             "name": "Villa Kebun Jeruk Syariah",
             "desc": "Terletak di Malang, 3,4 km dari Taman Rekreasi Tlogomas dan 4,8 km dari Jatim Park 3, Villa Kebun Jeruk Syariah Malang by ecommerceloka menawarkan akomodasi dengan Wi-Fi gratis dan taman dengan teras. Beberapa unit ber-AC dan memiliki area tempat duduk dan/atau ruang makan serta TV layar datar. Jika Anda ingin menjelajahi daerah tersebut, memancing dapat dilakukan di sekitarnya. Museum Mpu Purwa berjarak 6,7 km dari vila, sedangkan Universitas Brawijaya Malang berjarak 6,9 km. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 18 km dari Villa Kebun Jeruk Syariah Malang oleh ecommerceloka.",
             "type": "villa",
-            "rating" : 4.8
+            "rating": 4.8,
+            "kategori": "penginapan"
         },
         {
             "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/274184341.jpg?k=fa8c2d5eb9aeca2fdd02e2ff8e6b0c7495298addcad027605573baedec465926&o=&hp=1",
             "name": "Villa Marry Ind Gunung Kawi",
             "desc": "Villa ini berlokasi di Jl. Raya Bumirejo, Bumireja, Kebobang, Kec. Wonosari, Kabupaten Malang. Villa Marry Ind Gunung Kawi Malang menawarkan akomodasi dengan kolam renang luar ruangan, pusat kebugaran, lounge bersama, Wi-Fi gratis, dan pemandangan taman di Malang. Vila ini memiliki kolam renang pribadi dan taman. Vila ini memiliki 7 kamar tidur, 7 kamar mandi, TV satelit layar datar, ruang makan, dapur lengkap, dan balkon dengan pemandangan kolam renang. Vila ini memiliki teras. Layanan penyewaan mobil tersedia di Villa Marry Ind Gunung Kawi Malang. Taman Wisata Lembah Dieng dan Museum Zoologi Frater Vianney berjarak 15 km dari akomodasi. Bandara terdekat adalah Bandara Abdul Rachman Saleh, 27 km dari Villa Marry Ind Gunung Kawi Malang.",
             "type": "villa",
-            "rating" : 4.5
+            "rating": 4.5,
+            "kategori": "penginapan"
         }
     ]
 }

@@ -10,7 +10,7 @@ function Drawer() {
 
     return (
         <div
-            className={`fixed z-30 flex h-full w-2/3 flex-col items-start justify-between bg-black bg-opacity-50 px-5 py-10 backdrop-blur-md transition-all duration-200 md:hidden ${
+            className={`fixed z-30 flex h-full w-2/3 flex-col items-start justify-between bg-black bg-opacity-50 px-5 py-10 backdrop-blur-md transition-all duration-200 lg:hidden ${
                 openSideMenu ? 'left-0' : '-left-full'
             }`}
         >

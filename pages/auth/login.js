@@ -6,6 +6,7 @@ import Layout from '../../widgets/layout';
 import Head from 'next/head';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Cookies from 'js-cookie';
 
 function Login() {
     const { state } = useContext(GlobalContext);
@@ -24,6 +25,7 @@ function Login() {
         const { email, password } = input;
 
         if (email === 'user@user.com' && password === 'user') {
+            Cookies.set('user_token', 'user123', { expires: 30 });
             setLoggedIn(true);
             router.push('/');
         } else {

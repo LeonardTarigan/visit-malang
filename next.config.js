@@ -9,6 +9,11 @@ const nextConfig = {
             'asset.kompas.com',
             'assets.pikiran-rakyat.com',
             'encrypted-tbn0.gstatic.com',
+            'www.wildhareboca.com',
+            'www.asliindonesia.net',
+            'piknikwisata.com',
+            'cdn.idntimes.com',
+            'www.pantainesia.com',
         ],
     },
 };

@@ -4,7 +4,7 @@ import Logo from '../public/logo.png';
 
 function Footer() {
     return (
-        <footer className='mt-20 rounded-lg bg-black bg-opacity-30 p-4 backdrop-blur-sm md:px-20 md:py-8'>
+        <footer className='mt-20 rounded-lg bg-black bg-opacity-30 p-4 backdrop-blur-sm md:py-8 lg:px-20'>
             <div className='sm:flex sm:items-center sm:justify-between'>
                 <Link href='/' className='mb-4 flex items-center gap-2 sm:mb-0'>
                     <div className='relative h-10 w-10'>

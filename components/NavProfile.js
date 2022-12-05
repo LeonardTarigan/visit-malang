@@ -2,6 +2,7 @@ import { useContext, useEffect, useRef, useState } from 'react';
 import { GlobalContext } from '../context/GlobalContext';
 import Image from 'next/legacy/image';
 import { useRouter } from 'next/router';
+import Cookies from 'js-cookie';
 
 function NavProfile() {
     const { state } = useContext(GlobalContext);
@@ -17,11 +18,16 @@ function NavProfile() {
     };
 
     const handleLogout = () => {
+        Cookies.remove('user_token');
         setLoggedIn(false);
-        router.push('/');
+        window.location = '/';
     };
 
     useEffect(() => {
+        if (Cookies.get('user_token') !== undefined) {
+            setLoggedIn(true);
+        }
+
         const handleClick = (e) => {
             if (menuRef.current) {
                 if (!menuRef.current.contains(e.target)) {
@@ -34,7 +40,7 @@ function NavProfile() {
         return () => {
             document.removeEventListener('click', handleClick);
         };
-    }, []);
+    }, [setLoggedIn]);
 
     return (
         <>
