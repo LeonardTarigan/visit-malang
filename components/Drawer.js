@@ -48,14 +48,7 @@ function Drawer() {
                         </Scroll>
                     </li>
                     <li className='cursor-pointer transition-all duration-200 hover:text-pink-500 hover:underline'>
-                        <Link
-                            href={'/recommendation'}
-                            smooth={true}
-                            offset={-110}
-                            duration={1000}
-                        >
-                            Wisata
-                        </Link>
+                        <Link href={'/recommendation'}>Wisata</Link>
                     </li>
                 </ul>
             </div>

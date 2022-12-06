@@ -27,7 +27,7 @@ function Login() {
         if (email === 'user@user.com' && password === 'user') {
             Cookies.set('user_token', 'user123', { expires: 30 });
             setLoggedIn(true);
-            router.push('/');
+            window.location = '/';
         } else {
             toast.error('Password atau email salah', {
                 position: 'top-right',
